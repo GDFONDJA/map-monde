@@ -1,0 +1,4702 @@
+[
+  {
+    "id": "01_monde",
+    "title": "Monde",
+    "heading": "Carte du monde",
+    "kind": "Les continents",
+    "unit": "continents",
+    "description": "Replace chaque continent sur la carte du monde.",
+    "pieces": [
+      {
+        "id": "afrique",
+        "title": "Afrique",
+        "file": "pieces/afrique__afrique.png",
+        "box": {
+          "x": 1035,
+          "y": 569,
+          "largeur": 525,
+          "hauteur": 610
+        },
+        "point": [
+          1366.08,
+          831.87
+        ],
+        "type": "Continent",
+        "description": "Entre l’océan Atlantique à l’ouest et l’océan Indien à l’est."
+      },
+      {
+        "id": "amerique_du_nord",
+        "title": "Amérique du Nord",
+        "file": "pieces/amerique_du_nord__amerique_du_nord.png",
+        "box": {
+          "x": 207,
+          "y": 280,
+          "largeur": 1965,
+          "hauteur": 515
+        },
+        "point": [
+          613.12,
+          567.11
+        ],
+        "type": "Continent",
+        "description": "Dans la partie nord-ouest du planisphère, au nord de l’Amérique du Sud."
+      },
+      {
+        "id": "amerique_du_sud",
+        "title": "Amérique du Sud",
+        "file": "pieces/amerique_du_sud__amerique_du_sud.png",
+        "box": {
+          "x": 527,
+          "y": 747,
+          "largeur": 543,
+          "hauteur": 511
+        },
+        "point": [
+          856.93,
+          986.7
+        ],
+        "type": "Continent",
+        "description": "À l’ouest de l’océan Atlantique, au sud de l’Amérique du Nord."
+      },
+      {
+        "id": "antarctique",
+        "title": "Antarctique",
+        "file": "pieces/antarctique__antarctique.png",
+        "box": {
+          "x": 538,
+          "y": 1164,
+          "largeur": 1433,
+          "hauteur": 256
+        },
+        "point": [
+          1518.56,
+          1348.43
+        ],
+        "type": "Continent",
+        "description": "Autour du pôle Sud, tout en bas du planisphère."
+      },
+      {
+        "id": "asie",
+        "title": "Asie",
+        "file": "pieces/asie__asie.png",
+        "box": {
+          "x": 334,
+          "y": 288,
+          "largeur": 1755,
+          "hauteur": 645
+        },
+        "point": [
+          1703.93,
+          572.1
+        ],
+        "type": "Continent",
+        "description": "À l’est de l’Europe et au nord de l’océan Indien."
+      },
+      {
+        "id": "europe",
+        "title": "Europe",
+        "file": "pieces/europe__europe.png",
+        "box": {
+          "x": 1011,
+          "y": 288,
+          "largeur": 510,
+          "hauteur": 361
+        },
+        "point": [
+          1367.67,
+          467.31
+        ],
+        "type": "Continent",
+        "description": "Au nord de l’Afrique, à l’ouest de l’Asie."
+      },
+      {
+        "id": "oceanie",
+        "title": "Océanie",
+        "file": "pieces/oceanie__oceanie.png",
+        "box": {
+          "x": 75,
+          "y": 701,
+          "largeur": 2250,
+          "hauteur": 532
+        },
+        "point": [
+          2011.53,
+          1017.88
+        ],
+        "type": "Continent",
+        "description": "Dans le Pacifique, avec l’Australie et la Nouvelle-Zélande."
+      }
+    ],
+    "displayBounds": {
+      "x": 60,
+      "y": 266,
+      "width": 2280,
+      "height": 1168
+    }
+  },
+  {
+    "id": "02_afrique",
+    "title": "Afrique",
+    "heading": "Afrique",
+    "kind": "Les pays et territoires",
+    "unit": "pays et territoires",
+    "description": "Replace les pays et territoires sur la carte : Afrique.",
+    "pieces": [
+      {
+        "id": "zaf",
+        "title": "Afrique du Sud",
+        "file": "pieces/afrique_du_sud__zaf.png",
+        "box": {
+          "x": 1199,
+          "y": 1160,
+          "largeur": 404,
+          "hauteur": 465
+        },
+        "point": [
+          1381.2,
+          1281.47
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "dza",
+        "title": "Algérie",
+        "file": "pieces/algerie__dza.png",
+        "box": {
+          "x": 737,
+          "y": 79,
+          "largeur": 390,
+          "hauteur": 342
+        },
+        "point": [
+          912.87,
+          249.42
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "ago",
+        "title": "Angola",
+        "file": "pieces/angola__ago.png",
+        "box": {
+          "x": 1112,
+          "y": 837,
+          "largeur": 237,
+          "hauteur": 259
+        },
+        "point": [
+          1248.36,
+          979.28
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "bwa",
+        "title": "Botswana",
+        "file": "pieces/botswana__bwa.png",
+        "box": {
+          "x": 1263,
+          "y": 1081,
+          "largeur": 184,
+          "hauteur": 176
+        },
+        "point": [
+          1351.53,
+          1169.41
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "bfa",
+        "title": "Burkina Faso",
+        "file": "pieces/burkina_faso__bfa.png",
+        "box": {
+          "x": 795,
+          "y": 481,
+          "largeur": 156,
+          "hauteur": 114
+        },
+        "point": [
+          880.03,
+          538.38
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "bdi",
+        "title": "Burundi",
+        "file": "pieces/burundi__bdi.png",
+        "box": {
+          "x": 1429,
+          "y": 799,
+          "largeur": 44,
+          "hauteur": 50
+        },
+        "point": [
+          1451.33,
+          823.46
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "ben",
+        "title": "Bénin",
+        "file": "pieces/benin__ben.png",
+        "box": {
+          "x": 911,
+          "y": 530,
+          "largeur": 67,
+          "hauteur": 124
+        },
+        "point": [
+          943.95,
+          592.19
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "cmr",
+        "title": "Cameroun",
+        "file": "pieces/cameroun__cmr.png",
+        "box": {
+          "x": 1053,
+          "y": 518,
+          "largeur": 152,
+          "hauteur": 219
+        },
+        "point": [
+          1152.06,
+          627.27
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "cpv",
+        "title": "Cap-Vert",
+        "file": "pieces/cap_vert__cpv.png",
+        "box": {
+          "x": 431,
+          "y": 443,
+          "largeur": 60,
+          "hauteur": 54
+        },
+        "point": [
+          439.93,
+          450.68
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "com",
+        "title": "Comores",
+        "file": "pieces/comores__com.png",
+        "box": {
+          "x": 1690,
+          "y": 964,
+          "largeur": 35,
+          "hauteur": 29
+        },
+        "point": [
+          1717.16,
+          984.31
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "civ",
+        "title": "Côte d'Ivoire",
+        "file": "pieces/cote_d_ivoire__civ.png",
+        "box": {
+          "x": 739,
+          "y": 561,
+          "largeur": 123,
+          "hauteur": 127
+        },
+        "point": [
+          797.55,
+          624.5
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "dji",
+        "title": "Djibouti",
+        "file": "pieces/djibouti__dji.png",
+        "box": {
+          "x": 1663,
+          "y": 525,
+          "largeur": 42,
+          "hauteur": 43
+        },
+        "point": [
+          1680.56,
+          546.92
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "swz",
+        "title": "Eswatini",
+        "file": "pieces/eswatini__swz.png",
+        "box": {
+          "x": 1462,
+          "y": 1226,
+          "largeur": 35,
+          "hauteur": 40
+        },
+        "point": [
+          1479.48,
+          1246.69
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "fra_africa",
+        "title": "France (territoires en Afrique)",
+        "file": "pieces/france_territoires_en_afrique__fra_africa.png",
+        "box": {
+          "x": 1724,
+          "y": 987,
+          "largeur": 209,
+          "hauteur": 170
+        },
+        "point": [
+          1921.6,
+          1146.8
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "gab",
+        "title": "Gabon",
+        "file": "pieces/gabon__gab.png",
+        "box": {
+          "x": 1056,
+          "y": 714,
+          "largeur": 117,
+          "hauteur": 125
+        },
+        "point": [
+          1115.57,
+          777.47
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "gmb",
+        "title": "Gambie",
+        "file": "pieces/gambie__gmb.png",
+        "box": {
+          "x": 588,
+          "y": 504,
+          "largeur": 66,
+          "hauteur": 25
+        },
+        "point": [
+          638.47,
+          516.68
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "gha",
+        "title": "Ghana",
+        "file": "pieces/ghana__gha.png",
+        "box": {
+          "x": 837,
+          "y": 553,
+          "largeur": 92,
+          "hauteur": 128
+        },
+        "point": [
+          882.49,
+          616.37
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "gin",
+        "title": "Guinée",
+        "file": "pieces/guinee__gin.png",
+        "box": {
+          "x": 620,
+          "y": 525,
+          "largeur": 147,
+          "hauteur": 111
+        },
+        "point": [
+          724.53,
+          580.4
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "gnq",
+        "title": "Guinée équatoriale",
+        "file": "pieces/guinee_equatoriale__gnq.png",
+        "box": {
+          "x": 1051,
+          "y": 688,
+          "largeur": 65,
+          "hauteur": 62
+        },
+        "point": [
+          1094.93,
+          731.24
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "gnb",
+        "title": "Guinée-Bissau",
+        "file": "pieces/guinee_bissau__gnb.png",
+        "box": {
+          "x": 590,
+          "y": 525,
+          "largeur": 67,
+          "hauteur": 43
+        },
+        "point": [
+          633.89,
+          546.59
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "ken",
+        "title": "Kenya",
+        "file": "pieces/kenya__ken.png",
+        "box": {
+          "x": 1519,
+          "y": 656,
+          "largeur": 158,
+          "hauteur": 197
+        },
+        "point": [
+          1591.24,
+          753.77
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "lso",
+        "title": "Lesotho",
+        "file": "pieces/lesotho__lso.png",
+        "box": {
+          "x": 1393,
+          "y": 1278,
+          "largeur": 54,
+          "hauteur": 49
+        },
+        "point": [
+          1419.29,
+          1302.29
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "lbr",
+        "title": "Liberia",
+        "file": "pieces/liberia__lbr.png",
+        "box": {
+          "x": 685,
+          "y": 601,
+          "largeur": 87,
+          "hauteur": 87
+        },
+        "point": [
+          725.32,
+          644.5
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "lby",
+        "title": "Libye",
+        "file": "pieces/libye__lby.png",
+        "box": {
+          "x": 1068,
+          "y": 151,
+          "largeur": 301,
+          "hauteur": 261
+        },
+        "point": [
+          1219.44,
+          280.34
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "mdg",
+        "title": "Madagascar",
+        "file": "pieces/madagascar__mdg.png",
+        "box": {
+          "x": 1691,
+          "y": 977,
+          "largeur": 143,
+          "hauteur": 257
+        },
+        "point": [
+          1759.78,
+          1105.34
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "mwi",
+        "title": "Malawi",
+        "file": "pieces/malawi__mwi.png",
+        "box": {
+          "x": 1496,
+          "y": 928,
+          "largeur": 71,
+          "hauteur": 152
+        },
+        "point": [
+          1521.53,
+          1004.58
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "mli",
+        "title": "Mali",
+        "file": "pieces/mali__mli.png",
+        "box": {
+          "x": 671,
+          "y": 300,
+          "largeur": 314,
+          "hauteur": 282
+        },
+        "point": [
+          888.24,
+          441.36
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "mar",
+        "title": "Maroc",
+        "file": "pieces/maroc__mar.png",
+        "box": {
+          "x": 584,
+          "y": 100,
+          "largeur": 304,
+          "hauteur": 277
+        },
+        "point": [
+          720.07,
+          238.87
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "mus",
+        "title": "Maurice",
+        "file": "pieces/maurice__mus.png",
+        "box": {
+          "x": 1949,
+          "y": 1121,
+          "largeur": 20,
+          "hauteur": 21
+        },
+        "point": [
+          1959.27,
+          1131.81
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "mrt",
+        "title": "Mauritanie",
+        "file": "pieces/mauritanie__mrt.png",
+        "box": {
+          "x": 583,
+          "y": 258,
+          "largeur": 236,
+          "hauteur": 240
+        },
+        "point": [
+          691.15,
+          378.31
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "moz",
+        "title": "Mozambique",
+        "file": "pieces/mozambique__moz.png",
+        "box": {
+          "x": 1451,
+          "y": 947,
+          "largeur": 207,
+          "hauteur": 311
+        },
+        "point": [
+          1538.61,
+          1102.29
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "nam",
+        "title": "Namibie",
+        "file": "pieces/namibie__nam.png",
+        "box": {
+          "x": 1112,
+          "y": 1066,
+          "largeur": 259,
+          "hauteur": 230
+        },
+        "point": [
+          1217.81,
+          1180.52
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "ner",
+        "title": "Niger",
+        "file": "pieces/niger__ner.png",
+        "box": {
+          "x": 900,
+          "y": 327,
+          "largeur": 301,
+          "hauteur": 227
+        },
+        "point": [
+          1083.63,
+          438.85
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "nga",
+        "title": "Nigeria",
+        "file": "pieces/nigeria__nga.png",
+        "box": {
+          "x": 946,
+          "y": 503,
+          "largeur": 230,
+          "hauteur": 186
+        },
+        "point": [
+          1047.22,
+          596.39
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "uga",
+        "title": "Ouganda",
+        "file": "pieces/ouganda__uga.png",
+        "box": {
+          "x": 1439,
+          "y": 679,
+          "largeur": 111,
+          "hauteur": 115
+        },
+        "point": [
+          1502.14,
+          737.66
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "rwa",
+        "title": "Rwanda",
+        "file": "pieces/rwanda__rwa.png",
+        "box": {
+          "x": 1426,
+          "y": 776,
+          "largeur": 48,
+          "hauteur": 43
+        },
+        "point": [
+          1452.42,
+          796.76
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "caf",
+        "title": "République centrafricaine",
+        "file": "pieces/republique_centrafricaine__caf.png",
+        "box": {
+          "x": 1162,
+          "y": 556,
+          "largeur": 249,
+          "hauteur": 170
+        },
+        "point": [
+          1280.66,
+          641.57
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "cog",
+        "title": "République du Congo",
+        "file": "pieces/republique_du_congo__cog.png",
+        "box": {
+          "x": 1101,
+          "y": 689,
+          "largeur": 149,
+          "hauteur": 170
+        },
+        "point": [
+          1196.61,
+          774.56
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "cod",
+        "title": "République démocratique du Congo",
+        "file": "pieces/republique_democratique_du_congo__cod.png",
+        "box": {
+          "x": 1121,
+          "y": 659,
+          "largeur": 361,
+          "hauteur": 354
+        },
+        "point": [
+          1314.04,
+          835.89
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "sah",
+        "title": "Sahara occidental",
+        "file": "pieces/sahara_occidental__sah.png",
+        "box": {
+          "x": 583,
+          "y": 252,
+          "largeur": 165,
+          "hauteur": 136
+        },
+        "point": [
+          671.04,
+          319.7
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "shn",
+        "title": "Sainte-Hélène",
+        "file": "pieces/sainte_helene__shn.png",
+        "box": {
+          "x": 632,
+          "y": 900,
+          "largeur": 172,
+          "hauteur": 159
+        },
+        "point": [
+          638.44,
+          906.38
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "stp",
+        "title": "Sao Tomé-et-Principe",
+        "file": "pieces/sao_tome_et_principe__stp.png",
+        "box": {
+          "x": 1015,
+          "y": 725,
+          "largeur": 29,
+          "hauteur": 41
+        },
+        "point": [
+          1023.11,
+          758.69
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "syc",
+        "title": "Seychelles",
+        "file": "pieces/seychelles__syc.png",
+        "box": {
+          "x": 1913,
+          "y": 839,
+          "largeur": 14,
+          "hauteur": 16
+        },
+        "point": [
+          1920.84,
+          847.06
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "sle",
+        "title": "Sierra Leone",
+        "file": "pieces/sierra_leone__sle.png",
+        "box": {
+          "x": 653,
+          "y": 574,
+          "largeur": 66,
+          "hauteur": 67
+        },
+        "point": [
+          684.33,
+          607.78
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "som",
+        "title": "Somalie",
+        "file": "pieces/somalie__som.png",
+        "box": {
+          "x": 1649,
+          "y": 538,
+          "largeur": 202,
+          "hauteur": 260
+        },
+        "point": [
+          1762.97,
+          665.41
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "sol",
+        "title": "Somaliland",
+        "file": "pieces/somaliland__sol.png",
+        "box": {
+          "x": 1680,
+          "y": 547,
+          "largeur": 126,
+          "hauteur": 75
+        },
+        "point": [
+          1748.48,
+          585.14
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "sdn",
+        "title": "Soudan",
+        "file": "pieces/soudan__sdn.png",
+        "box": {
+          "x": 1297,
+          "y": 351,
+          "largeur": 319,
+          "hauteur": 258
+        },
+        "point": [
+          1448.68,
+          480.08
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "sds",
+        "title": "Soudan du Sud",
+        "file": "pieces/soudan_du_sud__sds.png",
+        "box": {
+          "x": 1340,
+          "y": 533,
+          "largeur": 215,
+          "hauteur": 171
+        },
+        "point": [
+          1436.39,
+          618.76
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "sen",
+        "title": "Sénégal",
+        "file": "pieces/senegal__sen.png",
+        "box": {
+          "x": 575,
+          "y": 452,
+          "largeur": 124,
+          "hauteur": 91
+        },
+        "point": [
+          632.96,
+          496.88
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "tza",
+        "title": "Tanzanie",
+        "file": "pieces/tanzanie__tza.png",
+        "box": {
+          "x": 1435,
+          "y": 775,
+          "largeur": 216,
+          "hauteur": 206
+        },
+        "point": [
+          1530.68,
+          877.9
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "tcd",
+        "title": "Tchad",
+        "file": "pieces/tchad__tcd.png",
+        "box": {
+          "x": 1144,
+          "y": 329,
+          "largeur": 204,
+          "hauteur": 302
+        },
+        "point": [
+          1242.42,
+          480.98
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "tgo",
+        "title": "Togo",
+        "file": "pieces/togo__tgo.png",
+        "box": {
+          "x": 895,
+          "y": 554,
+          "largeur": 45,
+          "hauteur": 102
+        },
+        "point": [
+          920.98,
+          604.76
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "tun",
+        "title": "Tunisie",
+        "file": "pieces/tunisie__tun.png",
+        "box": {
+          "x": 1034,
+          "y": 75,
+          "largeur": 85,
+          "hauteur": 141
+        },
+        "point": [
+          1065.13,
+          145.14
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "zmb",
+        "title": "Zambie",
+        "file": "pieces/zambie__zmb.png",
+        "box": {
+          "x": 1300,
+          "y": 906,
+          "largeur": 226,
+          "hauteur": 190
+        },
+        "point": [
+          1368.69,
+          1000.84
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "zwe",
+        "title": "Zimbabwe",
+        "file": "pieces/zimbabwe__zwe.png",
+        "box": {
+          "x": 1360,
+          "y": 1042,
+          "largeur": 154,
+          "hauteur": 134
+        },
+        "point": [
+          1440.95,
+          1108.72
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "egy",
+        "title": "Égypte",
+        "file": "pieces/egypte__egy.png",
+        "box": {
+          "x": 1350,
+          "y": 179,
+          "largeur": 235,
+          "hauteur": 187
+        },
+        "point": [
+          1442.9,
+          272.33
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "eri",
+        "title": "Érythrée",
+        "file": "pieces/erythree__eri.png",
+        "box": {
+          "x": 1565,
+          "y": 428,
+          "largeur": 134,
+          "hauteur": 114
+        },
+        "point": [
+          1601.71,
+          485.02
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "eth",
+        "title": "Éthiopie",
+        "file": "pieces/ethiopie__eth.png",
+        "box": {
+          "x": 1502,
+          "y": 485,
+          "largeur": 286,
+          "hauteur": 219
+        },
+        "point": [
+          1616.99,
+          594.35
+        ],
+        "type": "Pays ou territoire · Afrique",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 417,
+      "y": 60,
+      "width": 1566,
+      "height": 1580
+    }
+  },
+  {
+    "id": "03_europe",
+    "title": "Europe",
+    "heading": "Europe",
+    "kind": "Les pays et territoires",
+    "unit": "pays et territoires",
+    "description": "Replace les pays et territoires sur la carte : Europe.",
+    "pieces": [
+      {
+        "id": "alb",
+        "title": "Albanie",
+        "file": "pieces/albanie__alb.png",
+        "box": {
+          "x": 1324,
+          "y": 1354,
+          "largeur": 54,
+          "hauteur": 109
+        },
+        "point": [
+          1349.02,
+          1409.85
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "deu",
+        "title": "Allemagne",
+        "file": "pieces/allemagne__deu.png",
+        "box": {
+          "x": 1099,
+          "y": 908,
+          "largeur": 202,
+          "hauteur": 275
+        },
+        "point": [
+          1199.16,
+          1048.85
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "and",
+        "title": "Andorre",
+        "file": "pieces/andorre__and.png",
+        "box": {
+          "x": 919,
+          "y": 1239,
+          "largeur": 19,
+          "hauteur": 17
+        },
+        "point": [
+          928.7,
+          1247.82
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "aut",
+        "title": "Autriche",
+        "file": "pieces/autriche__aut.png",
+        "box": {
+          "x": 1142,
+          "y": 1133,
+          "largeur": 180,
+          "hauteur": 91
+        },
+        "point": [
+          1239.94,
+          1178.15
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "aze_europe",
+        "title": "Azerbaïdjan (partie européenne)",
+        "file": "pieces/azerbaidjan_partie_europeenne__aze_europe.png",
+        "box": {
+          "x": 2027,
+          "y": 1340,
+          "largeur": 73,
+          "hauteur": 47
+        },
+        "point": [
+          2047.45,
+          1363.45
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "bel",
+        "title": "Belgique",
+        "file": "pieces/belgique__bel.png",
+        "box": {
+          "x": 1042,
+          "y": 988,
+          "largeur": 78,
+          "hauteur": 86
+        },
+        "point": [
+          1087.87,
+          1030.9
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "blr",
+        "title": "Biélorussie",
+        "file": "pieces/bielorussie__blr.png",
+        "box": {
+          "x": 1454,
+          "y": 934,
+          "largeur": 199,
+          "hauteur": 170
+        },
+        "point": [
+          1557.29,
+          1019.36
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "bih",
+        "title": "Bosnie-Herzégovine",
+        "file": "pieces/bosnie_herzegovine__bih.png",
+        "box": {
+          "x": 1261,
+          "y": 1257,
+          "largeur": 96,
+          "hauteur": 107
+        },
+        "point": [
+          1314.72,
+          1309.39
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "bgr",
+        "title": "Bulgarie",
+        "file": "pieces/bulgarie__bgr.png",
+        "box": {
+          "x": 1405,
+          "y": 1312,
+          "largeur": 162,
+          "hauteur": 112
+        },
+        "point": [
+          1479.22,
+          1367.27
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "vat",
+        "title": "Cité du Vatican",
+        "file": "pieces/cite_du_vatican__vat.png",
+        "box": {
+          "x": 1166,
+          "y": 1344,
+          "largeur": 11,
+          "hauteur": 12
+        },
+        "point": [
+          1171.4,
+          1350.14
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "hrv",
+        "title": "Croatie",
+        "file": "pieces/croatie__hrv.png",
+        "box": {
+          "x": 1216,
+          "y": 1217,
+          "largeur": 142,
+          "hauteur": 151
+        },
+        "point": [
+          1261.04,
+          1282.55
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "dnk",
+        "title": "Danemark",
+        "file": "pieces/danemark__dnk.png",
+        "box": {
+          "x": 1195,
+          "y": 835,
+          "largeur": 131,
+          "hauteur": 118
+        },
+        "point": [
+          1230.15,
+          884.75
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "esp",
+        "title": "Espagne",
+        "file": "pieces/espagne__esp.png",
+        "box": {
+          "x": 265,
+          "y": 1106,
+          "largeur": 705,
+          "hauteur": 369
+        },
+        "point": [
+          808.46,
+          1247.61
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "est",
+        "title": "Estonie",
+        "file": "pieces/estonie__est.png",
+        "box": {
+          "x": 1450,
+          "y": 818,
+          "largeur": 120,
+          "hauteur": 82
+        },
+        "point": [
+          1520.07,
+          859.42
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "fin",
+        "title": "Finlande",
+        "file": "pieces/finlande__fin.png",
+        "box": {
+          "x": 1449,
+          "y": 482,
+          "largeur": 174,
+          "hauteur": 338
+        },
+        "point": [
+          1559.55,
+          651.23
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "fra_europe",
+        "title": "France (partie européenne)",
+        "file": "pieces/france_partie_europeenne__fra_europe.png",
+        "box": {
+          "x": 860,
+          "y": 989,
+          "largeur": 281,
+          "hauteur": 362
+        },
+        "point": [
+          1012.32,
+          1131.93
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "grc",
+        "title": "Grèce",
+        "file": "pieces/grece__grc.png",
+        "box": {
+          "x": 1329,
+          "y": 1399,
+          "largeur": 225,
+          "hauteur": 226
+        },
+        "point": [
+          1388.71,
+          1485.71
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "ggy",
+        "title": "Guernesey",
+        "file": "pieces/guernesey__ggy.png",
+        "box": {
+          "x": 925,
+          "y": 995,
+          "largeur": 14,
+          "hauteur": 13
+        },
+        "point": [
+          931.73,
+          1001.67
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "geo_europe",
+        "title": "Géorgie (partie européenne)",
+        "file": "pieces/georgie_partie_europeenne__geo_europe.png",
+        "box": {
+          "x": 1892,
+          "y": 1328,
+          "largeur": 85,
+          "hauteur": 27
+        },
+        "point": [
+          1953.61,
+          1343.14
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "hun",
+        "title": "Hongrie",
+        "file": "pieces/hongrie__hun.png",
+        "box": {
+          "x": 1281,
+          "y": 1168,
+          "largeur": 164,
+          "hauteur": 93
+        },
+        "point": [
+          1354.89,
+          1214.38
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "irl",
+        "title": "Irlande",
+        "file": "pieces/irlande__irl.png",
+        "box": {
+          "x": 826,
+          "y": 776,
+          "largeur": 124,
+          "hauteur": 113
+        },
+        "point": [
+          901.9,
+          832.56
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "isl",
+        "title": "Islande",
+        "file": "pieces/islande__isl.png",
+        "box": {
+          "x": 916,
+          "y": 342,
+          "largeur": 148,
+          "hauteur": 135
+        },
+        "point": [
+          984.83,
+          409.34
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "ita",
+        "title": "Italie",
+        "file": "pieces/italie__ita.png",
+        "box": {
+          "x": 1046,
+          "y": 1176,
+          "largeur": 267,
+          "hauteur": 359
+        },
+        "point": [
+          1186.04,
+          1337.27
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "jey",
+        "title": "Jersey",
+        "file": "pieces/jersey__jey.png",
+        "box": {
+          "x": 929,
+          "y": 1005,
+          "largeur": 15,
+          "hauteur": 15
+        },
+        "point": [
+          936.36,
+          1012.4
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "kaz_europe",
+        "title": "Kazakhstan (partie européenne)",
+        "file": "pieces/kazakhstan_partie_europeenne__kaz_europe.png",
+        "box": {
+          "x": 1942,
+          "y": 985,
+          "largeur": 219,
+          "hauteur": 221
+        },
+        "point": [
+          2001.85,
+          1107.38
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "kos",
+        "title": "Kosovo",
+        "file": "pieces/kosovo__kos.png",
+        "box": {
+          "x": 1351,
+          "y": 1338,
+          "largeur": 52,
+          "hauteur": 56
+        },
+        "point": [
+          1377.32,
+          1366.89
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "lva",
+        "title": "Lettonie",
+        "file": "pieces/lettonie__lva.png",
+        "box": {
+          "x": 1427,
+          "y": 869,
+          "largeur": 141,
+          "hauteur": 90
+        },
+        "point": [
+          1494.2,
+          914.65
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "lie",
+        "title": "Liechtenstein",
+        "file": "pieces/liechtenstein__lie.png",
+        "box": {
+          "x": 1141,
+          "y": 1158,
+          "largeur": 14,
+          "hauteur": 18
+        },
+        "point": [
+          1147.66,
+          1166.95
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "ltu",
+        "title": "Lituanie",
+        "file": "pieces/lituanie__ltu.png",
+        "box": {
+          "x": 1421,
+          "y": 918,
+          "largeur": 120,
+          "hauteur": 96
+        },
+        "point": [
+          1490.16,
+          965.89
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "lux",
+        "title": "Luxembourg",
+        "file": "pieces/luxembourg__lux.png",
+        "box": {
+          "x": 1088,
+          "y": 1044,
+          "largeur": 28,
+          "hauteur": 36
+        },
+        "point": [
+          1101.91,
+          1062.35
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "mkd",
+        "title": "Macédoine du Nord",
+        "file": "pieces/macedoine_du_nord__mkd.png",
+        "box": {
+          "x": 1356,
+          "y": 1371,
+          "largeur": 74,
+          "hauteur": 57
+        },
+        "point": [
+          1392.71,
+          1400.92
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "mlt",
+        "title": "Malte",
+        "file": "pieces/malte__mlt.png",
+        "box": {
+          "x": 1171,
+          "y": 1539,
+          "largeur": 20,
+          "hauteur": 20
+        },
+        "point": [
+          1182.19,
+          1550.05
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "mda",
+        "title": "Moldavie",
+        "file": "pieces/moldavie__mda.png",
+        "box": {
+          "x": 1516,
+          "y": 1182,
+          "largeur": 88,
+          "hauteur": 110
+        },
+        "point": [
+          1568.94,
+          1237.34
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "mco",
+        "title": "Monaco",
+        "file": "pieces/monaco__mco.png",
+        "box": {
+          "x": 1065,
+          "y": 1253,
+          "largeur": 12,
+          "hauteur": 12
+        },
+        "point": [
+          1070.9,
+          1259.23
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "mne",
+        "title": "Monténégro",
+        "file": "pieces/montenegro__mne.png",
+        "box": {
+          "x": 1312,
+          "y": 1323,
+          "largeur": 58,
+          "hauteur": 66
+        },
+        "point": [
+          1342.32,
+          1356.07
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "nor",
+        "title": "Norvège",
+        "file": "pieces/norvege__nor.png",
+        "box": {
+          "x": 1185,
+          "y": 145,
+          "largeur": 436,
+          "hauteur": 677
+        },
+        "point": [
+          1553.88,
+          171.98
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "nld_europe",
+        "title": "Pays-Bas (partie européenne)",
+        "file": "pieces/pays_bas_partie_europeenne__nld_europe.png",
+        "box": {
+          "x": 1061,
+          "y": 940,
+          "largeur": 104,
+          "hauteur": 98
+        },
+        "point": [
+          1115.95,
+          991.09
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "pol",
+        "title": "Pologne",
+        "file": "pieces/pologne__pol.png",
+        "box": {
+          "x": 1280,
+          "y": 958,
+          "largeur": 201,
+          "hauteur": 211
+        },
+        "point": [
+          1378.41,
+          1063.5
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "prt",
+        "title": "Portugal",
+        "file": "pieces/portugal__prt.png",
+        "box": {
+          "x": 232,
+          "y": 850,
+          "largeur": 521,
+          "hauteur": 464
+        },
+        "point": [
+          675.67,
+          1228.64
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "rou",
+        "title": "Roumanie",
+        "file": "pieces/roumanie__rou.png",
+        "box": {
+          "x": 1369,
+          "y": 1189,
+          "largeur": 225,
+          "hauteur": 158
+        },
+        "point": [
+          1468.61,
+          1267.6
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "gbr",
+        "title": "Royaume-Uni",
+        "file": "pieces/royaume_uni__gbr.png",
+        "box": {
+          "x": 879,
+          "y": 674,
+          "largeur": 250,
+          "hauteur": 320
+        },
+        "point": [
+          935.61,
+          813.1
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "rus_europe",
+        "title": "Russie (partie européenne)",
+        "file": "pieces/russie_partie_europeenne__rus_europe.png",
+        "box": {
+          "x": 1394,
+          "y": 75,
+          "largeur": 774,
+          "hauteur": 1296
+        },
+        "point": [
+          1841.76,
+          886.25
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "smr",
+        "title": "Saint-Marin",
+        "file": "pieces/saint_marin__smr.png",
+        "box": {
+          "x": 1180,
+          "y": 1279,
+          "largeur": 13,
+          "hauteur": 14
+        },
+        "point": [
+          1186.36,
+          1286.49
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "srb",
+        "title": "Serbie",
+        "file": "pieces/serbie__srb.png",
+        "box": {
+          "x": 1334,
+          "y": 1241,
+          "largeur": 99,
+          "hauteur": 143
+        },
+        "point": [
+          1385.73,
+          1313.11
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "svk",
+        "title": "Slovaquie",
+        "file": "pieces/slovaquie__svk.png",
+        "box": {
+          "x": 1307,
+          "y": 1131,
+          "largeur": 135,
+          "hauteur": 66
+        },
+        "point": [
+          1374.16,
+          1163.24
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "svn",
+        "title": "Slovénie",
+        "file": "pieces/slovenie__svn.png",
+        "box": {
+          "x": 1217,
+          "y": 1205,
+          "largeur": 83,
+          "hauteur": 53
+        },
+        "point": [
+          1248.49,
+          1231.54
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "che",
+        "title": "Suisse",
+        "file": "pieces/suisse__che.png",
+        "box": {
+          "x": 1057,
+          "y": 1135,
+          "largeur": 114,
+          "hauteur": 76
+        },
+        "point": [
+          1116.94,
+          1172.74
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "swe",
+        "title": "Suède",
+        "file": "pieces/suede__swe.png",
+        "box": {
+          "x": 1273,
+          "y": 508,
+          "largeur": 250,
+          "hauteur": 429
+        },
+        "point": [
+          1364.58,
+          722.12
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "cze",
+        "title": "Tchéquie",
+        "file": "pieces/tchequie__cze.png",
+        "box": {
+          "x": 1221,
+          "y": 1065,
+          "largeur": 144,
+          "hauteur": 100
+        },
+        "point": [
+          1285.93,
+          1114.8
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "tur_europe",
+        "title": "Turquie (partie européenne)",
+        "file": "pieces/turquie_partie_europeenne__tur_europe.png",
+        "box": {
+          "x": 1481,
+          "y": 1388,
+          "largeur": 96,
+          "hauteur": 75
+        },
+        "point": [
+          1537.84,
+          1425.96
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "ukr",
+        "title": "Ukraine",
+        "file": "pieces/ukraine__ukr.png",
+        "box": {
+          "x": 1420,
+          "y": 1056,
+          "largeur": 396,
+          "hauteur": 243
+        },
+        "point": [
+          1617.2,
+          1177.21
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "ald",
+        "title": "Åland",
+        "file": "pieces/aland__ald.png",
+        "box": {
+          "x": 1420,
+          "y": 784,
+          "largeur": 28,
+          "hauteur": 25
+        },
+        "point": [
+          1434.79,
+          794.71
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "imn",
+        "title": "île de Man",
+        "file": "pieces/ile_de_man__imn.png",
+        "box": {
+          "x": 955,
+          "y": 833,
+          "largeur": 23,
+          "hauteur": 20
+        },
+        "point": [
+          967.53,
+          842.61
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "fro",
+        "title": "îles Féroé",
+        "file": "pieces/iles_feroe__fro.png",
+        "box": {
+          "x": 1047,
+          "y": 585,
+          "largeur": 30,
+          "hauteur": 39
+        },
+        "point": [
+          1064.17,
+          596.72
+        ],
+        "type": "Pays ou territoire · Europe",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 218,
+      "y": 60,
+      "width": 1964,
+      "height": 1580
+    }
+  },
+  {
+    "id": "04_asie",
+    "title": "Asie",
+    "heading": "Asie",
+    "kind": "Les pays et territoires",
+    "unit": "pays et territoires",
+    "description": "Replace les pays et territoires sur la carte : Asie.",
+    "pieces": [
+      {
+        "id": "afg",
+        "title": "Afghanistan",
+        "file": "pieces/afghanistan__afg.png",
+        "box": {
+          "x": 544,
+          "y": 789,
+          "largeur": 207,
+          "hauteur": 153
+        },
+        "point": [
+          613.45,
+          865.37
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "sau",
+        "title": "Arabie saoudite",
+        "file": "pieces/arabie_saoudite__sau.png",
+        "box": {
+          "x": 191,
+          "y": 888,
+          "largeur": 298,
+          "hauteur": 258
+        },
+        "point": [
+          333.47,
+          1017.43
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "arm",
+        "title": "Arménie",
+        "file": "pieces/armenie__arm.png",
+        "box": {
+          "x": 311,
+          "y": 744,
+          "largeur": 54,
+          "hauteur": 49
+        },
+        "point": [
+          335.7,
+          768.65
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "aze_asia",
+        "title": "Azerbaïdjan (partie asiatique)",
+        "file": "pieces/azerbaidjan_partie_asiatique__aze_asia.png",
+        "box": {
+          "x": 329,
+          "y": 735,
+          "largeur": 88,
+          "hauteur": 66
+        },
+        "point": [
+          375.19,
+          767.83
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "bhr",
+        "title": "Bahreïn",
+        "file": "pieces/bahrein__bhr.png",
+        "box": {
+          "x": 407,
+          "y": 980,
+          "largeur": 13,
+          "hauteur": 18
+        },
+        "point": [
+          413.64,
+          989.11
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "bgd",
+        "title": "Bangladesh",
+        "file": "pieces/bangladesh__bgd.png",
+        "box": {
+          "x": 919,
+          "y": 975,
+          "largeur": 74,
+          "hauteur": 102
+        },
+        "point": [
+          950.11,
+          1025.92
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "btn",
+        "title": "Bhoutan",
+        "file": "pieces/bhoutan__btn.png",
+        "box": {
+          "x": 929,
+          "y": 948,
+          "largeur": 57,
+          "hauteur": 36
+        },
+        "point": [
+          956.37,
+          965.99
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "mmr",
+        "title": "Birmanie",
+        "file": "pieces/birmanie__mmr.png",
+        "box": {
+          "x": 976,
+          "y": 945,
+          "largeur": 133,
+          "hauteur": 302
+        },
+        "point": [
+          1032.68,
+          1094.82
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "brn",
+        "title": "Brunei",
+        "file": "pieces/brunei__brn.png",
+        "box": {
+          "x": 1275,
+          "y": 1312,
+          "largeur": 28,
+          "hauteur": 27
+        },
+        "point": [
+          1286.06,
+          1325.99
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "khm",
+        "title": "Cambodge",
+        "file": "pieces/cambodge__khm.png",
+        "box": {
+          "x": 1114,
+          "y": 1161,
+          "largeur": 84,
+          "hauteur": 78
+        },
+        "point": [
+          1157.92,
+          1200.05
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "cyp",
+        "title": "Chypre",
+        "file": "pieces/chypre__cyp.png",
+        "box": {
+          "x": 159,
+          "y": 840,
+          "largeur": 35,
+          "hauteur": 21
+        },
+        "point": [
+          173.89,
+          850.38
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "cyn",
+        "title": "Chypre du Nord",
+        "file": "pieces/chypre_du_nord__cyn.png",
+        "box": {
+          "x": 165,
+          "y": 833,
+          "largeur": 36,
+          "hauteur": 21
+        },
+        "point": [
+          180.41,
+          843.57
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "prk",
+        "title": "Corée du Nord",
+        "file": "pieces/coree_du_nord__prk.png",
+        "box": {
+          "x": 1415,
+          "y": 717,
+          "largeur": 98,
+          "hauteur": 94
+        },
+        "point": [
+          1454.15,
+          764.19
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "kor",
+        "title": "Corée du Sud",
+        "file": "pieces/coree_du_sud__kor.png",
+        "box": {
+          "x": 1438,
+          "y": 786,
+          "largeur": 78,
+          "hauteur": 96
+        },
+        "point": [
+          1470.32,
+          825.74
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "geo_asia",
+        "title": "Géorgie (partie asiatique)",
+        "file": "pieces/georgie_partie_asiatique__geo_asia.png",
+        "box": {
+          "x": 264,
+          "y": 708,
+          "largeur": 102,
+          "hauteur": 51
+        },
+        "point": [
+          317.31,
+          733.43
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "hkg",
+        "title": "Hong Kong",
+        "file": "pieces/hong_kong__hkg.png",
+        "box": {
+          "x": 1272,
+          "y": 1038,
+          "largeur": 17,
+          "hauteur": 17
+        },
+        "point": [
+          1280.94,
+          1045.46
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "ind",
+        "title": "Inde",
+        "file": "pieces/inde__ind.png",
+        "box": {
+          "x": 648,
+          "y": 835,
+          "largeur": 410,
+          "hauteur": 461
+        },
+        "point": [
+          818.88,
+          1055.23
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "idn",
+        "title": "Indonésie",
+        "file": "pieces/indonesie__idn.png",
+        "box": {
+          "x": 1017,
+          "y": 1299,
+          "largeur": 636,
+          "hauteur": 274
+        },
+        "point": [
+          1270.52,
+          1394.9
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "irq",
+        "title": "Irak",
+        "file": "pieces/irak__irq.png",
+        "box": {
+          "x": 247,
+          "y": 806,
+          "largeur": 145,
+          "hauteur": 141
+        },
+        "point": [
+          303.63,
+          876.7
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "irn",
+        "title": "Iran",
+        "file": "pieces/iran__irn.png",
+        "box": {
+          "x": 319,
+          "y": 768,
+          "largeur": 274,
+          "hauteur": 241
+        },
+        "point": [
+          461.51,
+          888.65
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "isr",
+        "title": "Israël",
+        "file": "pieces/israel__isr.png",
+        "box": {
+          "x": 186,
+          "y": 868,
+          "largeur": 33,
+          "hauteur": 73
+        },
+        "point": [
+          196.98,
+          904.15
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "jpn",
+        "title": "Japon",
+        "file": "pieces/japon__jpn.png",
+        "box": {
+          "x": 1406,
+          "y": 678,
+          "largeur": 313,
+          "hauteur": 344
+        },
+        "point": [
+          1679.55,
+          715.24
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "jor",
+        "title": "Jordanie",
+        "file": "pieces/jordanie__jor.png",
+        "box": {
+          "x": 195,
+          "y": 869,
+          "largeur": 71,
+          "hauteur": 76
+        },
+        "point": [
+          219.23,
+          906.87
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "kaz_asia",
+        "title": "Kazakhstan (partie asiatique)",
+        "file": "pieces/kazakhstan_partie_asiatique__kaz_asia.png",
+        "box": {
+          "x": 401,
+          "y": 523,
+          "largeur": 520,
+          "hauteur": 243
+        },
+        "point": [
+          659.86,
+          644.39
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "kgz",
+        "title": "Kirghizistan",
+        "file": "pieces/kirghizistan__kgz.png",
+        "box": {
+          "x": 663,
+          "y": 714,
+          "largeur": 161,
+          "hauteur": 74
+        },
+        "point": [
+          748.24,
+          751.01
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "kwt",
+        "title": "Koweït",
+        "file": "pieces/koweit__kwt.png",
+        "box": {
+          "x": 353,
+          "y": 920,
+          "largeur": 37,
+          "hauteur": 35
+        },
+        "point": [
+          370.73,
+          937.7
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "lao",
+        "title": "Laos",
+        "file": "pieces/laos__lao.png",
+        "box": {
+          "x": 1084,
+          "y": 1039,
+          "largeur": 114,
+          "hauteur": 145
+        },
+        "point": [
+          1152.23,
+          1111.61
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "lbn",
+        "title": "Liban",
+        "file": "pieces/liban__lbn.png",
+        "box": {
+          "x": 197,
+          "y": 848,
+          "largeur": 32,
+          "hauteur": 36
+        },
+        "point": [
+          214.06,
+          866.26
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "mac",
+        "title": "Macao",
+        "file": "pieces/macao__mac.png",
+        "box": {
+          "x": 1267,
+          "y": 1043,
+          "largeur": 12,
+          "hauteur": 12
+        },
+        "point": [
+          1272.7,
+          1048.8
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "mys",
+        "title": "Malaisie",
+        "file": "pieces/malaisie__mys.png",
+        "box": {
+          "x": 1078,
+          "y": 1276,
+          "largeur": 279,
+          "hauteur": 112
+        },
+        "point": [
+          1117.0,
+          1333.65
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "mdv",
+        "title": "Maldives",
+        "file": "pieces/maldives__mdv.png",
+        "box": {
+          "x": 720,
+          "y": 1324,
+          "largeur": 13,
+          "hauteur": 27
+        },
+        "point": [
+          725.57,
+          1345.41
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "mng",
+        "title": "Mongolie",
+        "file": "pieces/mongolie__mng.png",
+        "box": {
+          "x": 916,
+          "y": 574,
+          "largeur": 449,
+          "hauteur": 176
+        },
+        "point": [
+          1162.07,
+          662.08
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "npl",
+        "title": "Népal",
+        "file": "pieces/nepal__npl.png",
+        "box": {
+          "x": 811,
+          "y": 915,
+          "largeur": 121,
+          "hauteur": 74
+        },
+        "point": [
+          857.41,
+          952.12
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "omn",
+        "title": "Oman",
+        "file": "pieces/oman__omn.png",
+        "box": {
+          "x": 428,
+          "y": 979,
+          "largeur": 118,
+          "hauteur": 163
+        },
+        "point": [
+          501.55,
+          1070.15
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "uzb",
+        "title": "Ouzbékistan",
+        "file": "pieces/ouzbekistan__uzb.png",
+        "box": {
+          "x": 482,
+          "y": 677,
+          "largeur": 245,
+          "hauteur": 143
+        },
+        "point": [
+          589.03,
+          748.6
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "pak",
+        "title": "Pakistan",
+        "file": "pieces/pakistan__pak.png",
+        "box": {
+          "x": 549,
+          "y": 811,
+          "largeur": 232,
+          "hauteur": 219
+        },
+        "point": [
+          680.38,
+          920.4
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "psx",
+        "title": "Palestine",
+        "file": "pieces/palestine__psx.png",
+        "box": {
+          "x": 185,
+          "y": 882,
+          "largeur": 30,
+          "hauteur": 31
+        },
+        "point": [
+          205.04,
+          896.35
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "phl",
+        "title": "Philippines",
+        "file": "pieces/philippines__phl.png",
+        "box": {
+          "x": 1314,
+          "y": 1065,
+          "largeur": 143,
+          "hauteur": 258
+        },
+        "point": [
+          1432.65,
+          1276.16
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "qat",
+        "title": "Qatar",
+        "file": "pieces/qatar__qat.png",
+        "box": {
+          "x": 411,
+          "y": 982,
+          "largeur": 23,
+          "hauteur": 36
+        },
+        "point": [
+          421.85,
+          999.97
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "rus_asia",
+        "title": "Russie (partie asiatique)",
+        "file": "pieces/russie_partie_asiatique__rus_asia.png",
+        "box": {
+          "x": 122,
+          "y": 107,
+          "largeur": 2203,
+          "hauteur": 650
+        },
+        "point": [
+          1179.68,
+          454.84
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "chn",
+        "title": "République populaire de Chine",
+        "file": "pieces/republique_populaire_de_chine__chn.png",
+        "box": {
+          "x": 723,
+          "y": 551,
+          "largeur": 845,
+          "hauteur": 566
+        },
+        "point": [
+          1068.92,
+          818.1
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "sgp",
+        "title": "Singapour",
+        "file": "pieces/singapour__sgp.png",
+        "box": {
+          "x": 1133,
+          "y": 1368,
+          "largeur": 15,
+          "hauteur": 14
+        },
+        "point": [
+          1140.51,
+          1375.31
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "lka",
+        "title": "Sri Lanka",
+        "file": "pieces/sri_lanka__lka.png",
+        "box": {
+          "x": 806,
+          "y": 1237,
+          "largeur": 41,
+          "hauteur": 72
+        },
+        "point": [
+          824.46,
+          1272.75
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "syr",
+        "title": "Syrie",
+        "file": "pieces/syrie__syr.png",
+        "box": {
+          "x": 206,
+          "y": 807,
+          "largeur": 101,
+          "hauteur": 89
+        },
+        "point": [
+          249.97,
+          851.18
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "tjk",
+        "title": "Tadjikistan",
+        "file": "pieces/tadjikistan__tjk.png",
+        "box": {
+          "x": 637,
+          "y": 748,
+          "largeur": 117,
+          "hauteur": 80
+        },
+        "point": [
+          691.58,
+          787.76
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "twn",
+        "title": "Taïwan",
+        "file": "pieces/taiwan__twn.png",
+        "box": {
+          "x": 1332,
+          "y": 995,
+          "largeur": 61,
+          "hauteur": 64
+        },
+        "point": [
+          1372.41,
+          1027.34
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "iot",
+        "title": "Territoire britannique de l’océan Indien",
+        "file": "pieces/territoire_britannique_de_l_ocean_indien__iot.png",
+        "box": {
+          "x": 706,
+          "y": 1504,
+          "largeur": 13,
+          "hauteur": 14
+        },
+        "point": [
+          711.97,
+          1510.89
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "ioa",
+        "title": "Territoires extérieurs australiens de l'Océan Indien",
+        "file": "pieces/territoires_exterieurs_australiens_de_l_ocean_indien__ioa.png",
+        "box": {
+          "x": 1040,
+          "y": 1554,
+          "largeur": 132,
+          "hauteur": 39
+        },
+        "point": [
+          1165.49,
+          1560.64
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "tha",
+        "title": "Thaïlande",
+        "file": "pieces/thailande__tha.png",
+        "box": {
+          "x": 1047,
+          "y": 1071,
+          "largeur": 124,
+          "hauteur": 243
+        },
+        "point": [
+          1111.23,
+          1192.58
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "tls",
+        "title": "Timor oriental",
+        "file": "pieces/timor_oriental__tls.png",
+        "box": {
+          "x": 1411,
+          "y": 1518,
+          "largeur": 55,
+          "hauteur": 33
+        },
+        "point": [
+          1438.95,
+          1536.0
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "tkm",
+        "title": "Turkménistan",
+        "file": "pieces/turkmenistan__tkm.png",
+        "box": {
+          "x": 435,
+          "y": 721,
+          "largeur": 204,
+          "hauteur": 130
+        },
+        "point": [
+          528.91,
+          786.26
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "tur_asia",
+        "title": "Turquie (partie asiatique)",
+        "file": "pieces/turquie_partie_asiatique__tur_asia.png",
+        "box": {
+          "x": 75,
+          "y": 732,
+          "largeur": 266,
+          "hauteur": 109
+        },
+        "point": [
+          208.29,
+          786.54
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "vnm",
+        "title": "Viêt Nam",
+        "file": "pieces/viet_nam__vnm.png",
+        "box": {
+          "x": 1112,
+          "y": 1026,
+          "largeur": 111,
+          "hauteur": 242
+        },
+        "point": [
+          1195.47,
+          1146.62
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "yem",
+        "title": "Yémen",
+        "file": "pieces/yemen__yem.png",
+        "box": {
+          "x": 299,
+          "y": 1094,
+          "largeur": 174,
+          "hauteur": 115
+        },
+        "point": [
+          371.91,
+          1148.36
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "kas",
+        "title": "glacier de Siachen",
+        "file": "pieces/glacier_de_siachen__kas.png",
+        "box": {
+          "x": 766,
+          "y": 833,
+          "largeur": 25,
+          "hauteur": 19
+        },
+        "point": [
+          778.11,
+          842.11
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "are",
+        "title": "Émirats arabes unis",
+        "file": "pieces/emirats_arabes_unis__are.png",
+        "box": {
+          "x": 422,
+          "y": 983,
+          "largeur": 77,
+          "hauteur": 65
+        },
+        "point": [
+          476.08,
+          1015.53
+        ],
+        "type": "Pays ou territoire · Asie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 60,
+      "y": 93,
+      "width": 2279,
+      "height": 1514
+    }
+  },
+  {
+    "id": "05_amerique_du_nord",
+    "title": "Amérique du Nord",
+    "heading": "Amérique du Nord",
+    "kind": "Les pays et territoires",
+    "unit": "pays et territoires",
+    "description": "Replace les pays et territoires sur la carte : Amérique du Nord.",
+    "pieces": [
+      {
+        "id": "aia",
+        "title": "Anguilla",
+        "file": "pieces/anguilla__aia.png",
+        "box": {
+          "x": 1656,
+          "y": 1266,
+          "largeur": 14,
+          "hauteur": 12
+        },
+        "point": [
+          1662.82,
+          1272.03
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "atg",
+        "title": "Antigua-et-Barbuda",
+        "file": "pieces/antigua_et_barbuda__atg.png",
+        "box": {
+          "x": 1673,
+          "y": 1274,
+          "largeur": 13,
+          "hauteur": 22
+        },
+        "point": [
+          1679.34,
+          1289.41
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "abw",
+        "title": "Aruba",
+        "file": "pieces/aruba__abw.png",
+        "box": {
+          "x": 1569,
+          "y": 1353,
+          "largeur": 13,
+          "hauteur": 14
+        },
+        "point": [
+          1574.99,
+          1359.73
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "bhs",
+        "title": "Bahamas",
+        "file": "pieces/bahamas__bhs.png",
+        "box": {
+          "x": 1455,
+          "y": 1132,
+          "largeur": 90,
+          "hauteur": 103
+        },
+        "point": [
+          1468.29,
+          1141.82
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "brb",
+        "title": "Barbade",
+        "file": "pieces/barbade__brb.png",
+        "box": {
+          "x": 1701,
+          "y": 1342,
+          "largeur": 14,
+          "hauteur": 15
+        },
+        "point": [
+          1707.78,
+          1349.69
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "blz",
+        "title": "Belize",
+        "file": "pieces/belize__blz.png",
+        "box": {
+          "x": 1325,
+          "y": 1262,
+          "largeur": 29,
+          "hauteur": 51
+        },
+        "point": [
+          1336.48,
+          1288.57
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "bmu",
+        "title": "Bermudes",
+        "file": "pieces/bermudes__bmu.png",
+        "box": {
+          "x": 1635,
+          "y": 1048,
+          "largeur": 13,
+          "hauteur": 13
+        },
+        "point": [
+          1642.08,
+          1053.83
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "can",
+        "title": "Canada",
+        "file": "pieces/canada__can.png",
+        "box": {
+          "x": 666,
+          "y": 261,
+          "largeur": 1135,
+          "hauteur": 654
+        },
+        "point": [
+          1059.75,
+          674.45
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "cri",
+        "title": "Costa Rica",
+        "file": "pieces/costa_rica__cri.png",
+        "box": {
+          "x": 1367,
+          "y": 1375,
+          "largeur": 54,
+          "hauteur": 59
+        },
+        "point": [
+          1401.13,
+          1404.28
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "cub",
+        "title": "Cuba",
+        "file": "pieces/cuba__cub.png",
+        "box": {
+          "x": 1380,
+          "y": 1190,
+          "largeur": 148,
+          "hauteur": 62
+        },
+        "point": [
+          1473.61,
+          1220.88
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "cuw",
+        "title": "Curaçao",
+        "file": "pieces/curacao__cuw.png",
+        "box": {
+          "x": 1580,
+          "y": 1356,
+          "largeur": 16,
+          "hauteur": 17
+        },
+        "point": [
+          1587.76,
+          1364.79
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "dma",
+        "title": "Dominique",
+        "file": "pieces/dominique__dma.png",
+        "box": {
+          "x": 1678,
+          "y": 1306,
+          "largeur": 14,
+          "hauteur": 18
+        },
+        "point": [
+          1684.79,
+          1314.41
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "fra_north_america",
+        "title": "France (territoires en Amérique du Nord)",
+        "file": "pieces/france_territoires_en_amerique_du_nord__fra_north_america.png",
+        "box": {
+          "x": 1674,
+          "y": 1293,
+          "largeur": 23,
+          "hauteur": 43
+        },
+        "point": [
+          1689.15,
+          1326.97
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "grd",
+        "title": "Grenade",
+        "file": "pieces/grenade__grd.png",
+        "box": {
+          "x": 1674,
+          "y": 1359,
+          "largeur": 13,
+          "hauteur": 14
+        },
+        "point": [
+          1680.76,
+          1365.54
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "grl",
+        "title": "Groenland",
+        "file": "pieces/groenland__grl.png",
+        "box": {
+          "x": 1533,
+          "y": 253,
+          "largeur": 792,
+          "hauteur": 381
+        },
+        "point": [
+          1986.82,
+          443.43
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "gtm",
+        "title": "Guatemala",
+        "file": "pieces/guatemala__gtm.png",
+        "box": {
+          "x": 1286,
+          "y": 1273,
+          "largeur": 62,
+          "hauteur": 74
+        },
+        "point": [
+          1316.83,
+          1309.44
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "hti",
+        "title": "Haïti",
+        "file": "pieces/haiti__hti.png",
+        "box": {
+          "x": 1512,
+          "y": 1237,
+          "largeur": 47,
+          "hauteur": 43
+        },
+        "point": [
+          1546.22,
+          1260.57
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "hnd",
+        "title": "Honduras",
+        "file": "pieces/honduras__hnd.png",
+        "box": {
+          "x": 1323,
+          "y": 1293,
+          "largeur": 90,
+          "hauteur": 65
+        },
+        "point": [
+          1355.47,
+          1329.36
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "jam",
+        "title": "Jamaïque",
+        "file": "pieces/jamaique__jam.png",
+        "box": {
+          "x": 1463,
+          "y": 1262,
+          "largeur": 38,
+          "hauteur": 23
+        },
+        "point": [
+          1483.8,
+          1273.74
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "mex",
+        "title": "Mexique",
+        "file": "pieces/mexique__mex.png",
+        "box": {
+          "x": 954,
+          "y": 1043,
+          "largeur": 414,
+          "hauteur": 291
+        },
+        "point": [
+          1164.68,
+          1188.32
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "msr",
+        "title": "Montserrat",
+        "file": "pieces/montserrat__msr.png",
+        "box": {
+          "x": 1668,
+          "y": 1288,
+          "largeur": 12,
+          "hauteur": 13
+        },
+        "point": [
+          1674.24,
+          1294.62
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "nic",
+        "title": "Nicaragua",
+        "file": "pieces/nicaragua__nic.png",
+        "box": {
+          "x": 1345,
+          "y": 1316,
+          "largeur": 68,
+          "hauteur": 77
+        },
+        "point": [
+          1377.11,
+          1354.99
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "pan",
+        "title": "Panama",
+        "file": "pieces/panama__pan.png",
+        "box": {
+          "x": 1404,
+          "y": 1399,
+          "largeur": 85,
+          "hauteur": 48
+        },
+        "point": [
+          1428.8,
+          1423.12
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "nld_north_america",
+        "title": "Pays-Bas (territoires en Amérique du Nord)",
+        "file": "pieces/pays_bas_territoires_en_amerique_du_nord__nld_north_america.png",
+        "box": {
+          "x": 1590,
+          "y": 1275,
+          "largeur": 80,
+          "hauteur": 98
+        },
+        "point": [
+          1597.14,
+          1365.36
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "pri",
+        "title": "Porto Rico",
+        "file": "pieces/porto_rico__pri.png",
+        "box": {
+          "x": 1596,
+          "y": 1262,
+          "largeur": 44,
+          "hauteur": 20
+        },
+        "point": [
+          1620.55,
+          1271.68
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "dom",
+        "title": "République dominicaine",
+        "file": "pieces/republique_dominicaine__dom.png",
+        "box": {
+          "x": 1544,
+          "y": 1240,
+          "largeur": 57,
+          "hauteur": 46
+        },
+        "point": [
+          1573.27,
+          1263.43
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "blm",
+        "title": "Saint-Barthélemy",
+        "file": "pieces/saint_barthelemy__blm.png",
+        "box": {
+          "x": 1660,
+          "y": 1271,
+          "largeur": 12,
+          "hauteur": 12
+        },
+        "point": [
+          1665.97,
+          1276.77
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "kna",
+        "title": "Saint-Christophe-et-Niévès",
+        "file": "pieces/saint_christophe_et_nieves__kna.png",
+        "box": {
+          "x": 1660,
+          "y": 1279,
+          "largeur": 15,
+          "hauteur": 16
+        },
+        "point": [
+          1667.07,
+          1285.75
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "maf",
+        "title": "Saint-Martin",
+        "file": "pieces/saint_martin__maf.png",
+        "box": {
+          "x": 1657,
+          "y": 1268,
+          "largeur": 12,
+          "hauteur": 12
+        },
+        "point": [
+          1663.19,
+          1273.78
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "sxm",
+        "title": "Saint-Martin",
+        "file": "pieces/saint_martin__sxm.png",
+        "box": {
+          "x": 1657,
+          "y": 1269,
+          "largeur": 12,
+          "hauteur": 11
+        },
+        "point": [
+          1663.22,
+          1274.61
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "spm",
+        "title": "Saint-Pierre-et-Miquelon",
+        "file": "pieces/saint_pierre_et_miquelon__spm.png",
+        "box": {
+          "x": 1743,
+          "y": 820,
+          "largeur": 14,
+          "hauteur": 16
+        },
+        "point": [
+          1750.67,
+          830.35
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "vct",
+        "title": "Saint-Vincent-et-les-Grenadines",
+        "file": "pieces/saint_vincent_et_les_grenadines__vct.png",
+        "box": {
+          "x": 1679,
+          "y": 1341,
+          "largeur": 14,
+          "hauteur": 22
+        },
+        "point": [
+          1686.78,
+          1348.55
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "lca",
+        "title": "Sainte-Lucie",
+        "file": "pieces/sainte_lucie__lca.png",
+        "box": {
+          "x": 1683,
+          "y": 1330,
+          "largeur": 13,
+          "hauteur": 17
+        },
+        "point": [
+          1689.59,
+          1338.65
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "slv",
+        "title": "Salvador",
+        "file": "pieces/salvador__slv.png",
+        "box": {
+          "x": 1314,
+          "y": 1325,
+          "largeur": 41,
+          "hauteur": 30
+        },
+        "point": [
+          1334.25,
+          1340.08
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "tto",
+        "title": "Trinité-et-Tobago",
+        "file": "pieces/trinite_et_tobago__tto.png",
+        "box": {
+          "x": 1672,
+          "y": 1373,
+          "largeur": 29,
+          "hauteur": 30
+        },
+        "point": [
+          1686.12,
+          1391.93
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "usa",
+        "title": "États-Unis",
+        "file": "pieces/etats_unis__usa.png",
+        "box": {
+          "x": 75,
+          "y": 443,
+          "largeur": 1544,
+          "hauteur": 823
+        },
+        "point": [
+          1197.18,
+          977.92
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "cym",
+        "title": "îles Caïmans",
+        "file": "pieces/iles_caimans__cym.png",
+        "box": {
+          "x": 1424,
+          "y": 1243,
+          "largeur": 32,
+          "hauteur": 18
+        },
+        "point": [
+          1431.57,
+          1254.96
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "tca",
+        "title": "îles Turques-et-Caïques",
+        "file": "pieces/iles_turques_et_caiques__tca.png",
+        "box": {
+          "x": 1540,
+          "y": 1209,
+          "largeur": 20,
+          "hauteur": 14
+        },
+        "point": [
+          1552.64,
+          1216.47
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "vgb",
+        "title": "îles Vierges britanniques",
+        "file": "pieces/iles_vierges_britanniques__vgb.png",
+        "box": {
+          "x": 1637,
+          "y": 1258,
+          "largeur": 16,
+          "hauteur": 17
+        },
+        "point": [
+          1643.29,
+          1268.73
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "vir",
+        "title": "îles Vierges des États-Unis",
+        "file": "pieces/iles_vierges_des_etats_unis__vir.png",
+        "box": {
+          "x": 1633,
+          "y": 1264,
+          "largeur": 16,
+          "hauteur": 21
+        },
+        "point": [
+          1641.5,
+          1279.47
+        ],
+        "type": "Pays ou territoire · Amérique du Nord",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 61,
+      "y": 239,
+      "width": 2278,
+      "height": 1222
+    }
+  },
+  {
+    "id": "06_amerique_du_sud",
+    "title": "Amérique du Sud",
+    "heading": "Amérique du Sud",
+    "kind": "Les pays et territoires",
+    "unit": "pays et territoires",
+    "description": "Replace les pays et territoires sur la carte : Amérique du Sud.",
+    "pieces": [
+      {
+        "id": "arg",
+        "title": "Argentine",
+        "file": "pieces/argentine__arg.png",
+        "box": {
+          "x": 1074,
+          "y": 816,
+          "largeur": 430,
+          "hauteur": 734
+        },
+        "point": [
+          1281.66,
+          1153.74
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "bol",
+        "title": "Bolivie",
+        "file": "pieces/bolivie__bol.png",
+        "box": {
+          "x": 1157,
+          "y": 554,
+          "largeur": 267,
+          "hauteur": 297
+        },
+        "point": [
+          1279.67,
+          702.6
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "bra",
+        "title": "Brésil",
+        "file": "pieces/bresil__bra.png",
+        "box": {
+          "x": 1065,
+          "y": 230,
+          "largeur": 837,
+          "hauteur": 857
+        },
+        "point": [
+          1581.85,
+          657.56
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "chl",
+        "title": "Chili",
+        "file": "pieces/chili__chl.png",
+        "box": {
+          "x": 318,
+          "y": 723,
+          "largeur": 917,
+          "hauteur": 846
+        },
+        "point": [
+          1122.99,
+          1123.28
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "col",
+        "title": "Colombie",
+        "file": "pieces/colombie__col.png",
+        "box": {
+          "x": 959,
+          "y": 75,
+          "largeur": 267,
+          "hauteur": 372
+        },
+        "point": [
+          1100.13,
+          260.38
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "fra_south_america",
+        "title": "France (territoires en Amérique du Sud)",
+        "file": "pieces/france_territoires_en_amerique_du_sud__fra_south_america.png",
+        "box": {
+          "x": 1473,
+          "y": 219,
+          "largeur": 74,
+          "hauteur": 90
+        },
+        "point": [
+          1511.98,
+          263.58
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "guy",
+        "title": "Guyana",
+        "file": "pieces/guyana__guy.png",
+        "box": {
+          "x": 1331,
+          "y": 159,
+          "largeur": 114,
+          "hauteur": 170
+        },
+        "point": [
+          1387.23,
+          244.32
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "sgs",
+        "title": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+        "file": "pieces/georgie_du_sud_et_les_iles_sandwich_du_sud__sgs.png",
+        "box": {
+          "x": 1823,
+          "y": 1516,
+          "largeur": 259,
+          "hauteur": 109
+        },
+        "point": [
+          1861.27,
+          1531.42
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "pry",
+        "title": "Paraguay",
+        "file": "pieces/paraguay__pry.png",
+        "box": {
+          "x": 1304,
+          "y": 762,
+          "largeur": 188,
+          "hauteur": 190
+        },
+        "point": [
+          1397.33,
+          857.33
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "per",
+        "title": "Pérou",
+        "file": "pieces/perou__per.png",
+        "box": {
+          "x": 910,
+          "y": 345,
+          "largeur": 278,
+          "hauteur": 407
+        },
+        "point": [
+          1032.53,
+          548.93
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "sur",
+        "title": "Suriname",
+        "file": "pieces/suriname__sur.png",
+        "box": {
+          "x": 1401,
+          "y": 214,
+          "largeur": 96,
+          "hauteur": 101
+        },
+        "point": [
+          1446.7,
+          263.79
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "ury",
+        "title": "Uruguay",
+        "file": "pieces/uruguay__ury.png",
+        "box": {
+          "x": 1393,
+          "y": 996,
+          "largeur": 123,
+          "hauteur": 116
+        },
+        "point": [
+          1453.68,
+          1054.85
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-est de la carte."
+      },
+      {
+        "id": "ven",
+        "title": "Venezuela",
+        "file": "pieces/venezuela__ven.png",
+        "box": {
+          "x": 1078,
+          "y": 80,
+          "largeur": 296,
+          "hauteur": 260
+        },
+        "point": [
+          1251.29,
+          210.41
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "ecu",
+        "title": "Équateur",
+        "file": "pieces/equateur__ecu.png",
+        "box": {
+          "x": 693,
+          "y": 312,
+          "largeur": 357,
+          "hauteur": 151
+        },
+        "point": [
+          980.13,
+          387.85
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "flk",
+        "title": "îles Malouines",
+        "file": "pieces/iles_malouines__flk.png",
+        "box": {
+          "x": 1336,
+          "y": 1457,
+          "largeur": 81,
+          "hauteur": 34
+        },
+        "point": [
+          1391.24,
+          1474.08
+        ],
+        "type": "Pays ou territoire · Amérique du Sud",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 304,
+      "y": 60,
+      "width": 1792,
+      "height": 1580
+    }
+  },
+  {
+    "id": "07_oceanie",
+    "title": "Océanie",
+    "heading": "Océanie",
+    "kind": "Les pays et territoires",
+    "unit": "pays et territoires",
+    "description": "Replace les pays et territoires sur la carte : Océanie.",
+    "pieces": [
+      {
+        "id": "aus",
+        "title": "Australie",
+        "file": "pieces/australie__aus.png",
+        "box": {
+          "x": 75,
+          "y": 685,
+          "largeur": 879,
+          "hauteur": 905
+        },
+        "point": [
+          460.27,
+          987.7
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "fji",
+        "title": "Fidji",
+        "file": "pieces/fidji__fji.png",
+        "box": {
+          "x": 1237,
+          "y": 734,
+          "largeur": 146,
+          "hauteur": 195
+        },
+        "point": [
+          1306.88,
+          845.44
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "gum",
+        "title": "Guam",
+        "file": "pieces/guam__gum.png",
+        "box": {
+          "x": 673,
+          "y": 214,
+          "largeur": 16,
+          "hauteur": 18
+        },
+        "point": [
+          681.01,
+          222.07
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "pcn",
+        "title": "Iles Pitcairn",
+        "file": "pieces/iles_pitcairn__pcn.png",
+        "box": {
+          "x": 2313,
+          "y": 970,
+          "largeur": 12,
+          "hauteur": 13
+        },
+        "point": [
+          2319.5,
+          976.39
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "kir",
+        "title": "Kiribati",
+        "file": "pieces/kiribati__kir.png",
+        "box": {
+          "x": 1142,
+          "y": 407,
+          "largeur": 741,
+          "hauteur": 317
+        },
+        "point": [
+          1214.99,
+          463.52
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "nru",
+        "title": "Nauru",
+        "file": "pieces/nauru__nru.png",
+        "box": {
+          "x": 1093,
+          "y": 495,
+          "largeur": 12,
+          "hauteur": 12
+        },
+        "point": [
+          1098.62,
+          501.0
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "niu",
+        "title": "Niue",
+        "file": "pieces/niue__niu.png",
+        "box": {
+          "x": 1529,
+          "y": 863,
+          "largeur": 14,
+          "hauteur": 15
+        },
+        "point": [
+          1536.03,
+          870.46
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "ncl",
+        "title": "Nouvelle-Calédonie",
+        "file": "pieces/nouvelle_caledonie__ncl.png",
+        "box": {
+          "x": 961,
+          "y": 866,
+          "largeur": 166,
+          "hauteur": 82
+        },
+        "point": [
+          1067.04,
+          913.87
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "nzl",
+        "title": "Nouvelle-Zélande",
+        "file": "pieces/nouvelle_zelande__nzl.png",
+        "box": {
+          "x": 1073,
+          "y": 655,
+          "largeur": 444,
+          "hauteur": 891
+        },
+        "point": [
+          1281.1,
+          1248.89
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "plw",
+        "title": "Palaos",
+        "file": "pieces/palaos__plw.png",
+        "box": {
+          "x": 418,
+          "y": 331,
+          "largeur": 78,
+          "hauteur": 105
+        },
+        "point": [
+          488.79,
+          340.01
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "png",
+        "title": "Papouasie-Nouvelle-Guinée",
+        "file": "pieces/papouasie_nouvelle_guinee__png.png",
+        "box": {
+          "x": 602,
+          "y": 512,
+          "largeur": 295,
+          "hauteur": 216
+        },
+        "point": [
+          673.02,
+          622.87
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "pyf",
+        "title": "Polynésie française",
+        "file": "pieces/polynesie_francaise__pyf.png",
+        "box": {
+          "x": 1877,
+          "y": 660,
+          "largeur": 298,
+          "hauteur": 252
+        },
+        "point": [
+          2117.83,
+          685.53
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "wsm",
+        "title": "Samoa",
+        "file": "pieces/samoa__wsm.png",
+        "box": {
+          "x": 1476,
+          "y": 753,
+          "largeur": 36,
+          "hauteur": 23
+        },
+        "point": [
+          1487.33,
+          761.87
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "asm",
+        "title": "Samoa américaines",
+        "file": "pieces/samoa_americaines__asm.png",
+        "box": {
+          "x": 1513,
+          "y": 769,
+          "largeur": 15,
+          "hauteur": 13
+        },
+        "point": [
+          1520.0,
+          775.53
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "ton",
+        "title": "Tonga",
+        "file": "pieces/tonga__ton.png",
+        "box": {
+          "x": 1427,
+          "y": 855,
+          "largeur": 38,
+          "hauteur": 69
+        },
+        "point": [
+          1434.63,
+          912.49
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "tuv",
+        "title": "Tuvalu",
+        "file": "pieces/tuvalu__tuv.png",
+        "box": {
+          "x": 1324,
+          "y": 654,
+          "largeur": 12,
+          "hauteur": 12
+        },
+        "point": [
+          1330.05,
+          660.0
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "vut",
+        "title": "Vanuatu",
+        "file": "pieces/vanuatu__vut.png",
+        "box": {
+          "x": 1085,
+          "y": 758,
+          "largeur": 75,
+          "hauteur": 142
+        },
+        "point": [
+          1125.47,
+          842.68
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "wlf",
+        "title": "Wallis-et-Futuna",
+        "file": "pieces/wallis_et_futuna__wlf.png",
+        "box": {
+          "x": 1374,
+          "y": 749,
+          "largeur": 50,
+          "hauteur": 33
+        },
+        "point": [
+          1379.86,
+          774.99
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "fsm",
+        "title": "États fédérés de Micronésie",
+        "file": "pieces/etats_federes_de_micronesie__fsm.png",
+        "box": {
+          "x": 549,
+          "y": 294,
+          "largeur": 481,
+          "hauteur": 97
+        },
+        "point": [
+          934.77,
+          353.4
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      },
+      {
+        "id": "nfk",
+        "title": "Île Norfolk",
+        "file": "pieces/ile_norfolk__nfk.png",
+        "box": {
+          "x": 1111,
+          "y": 1064,
+          "largeur": 13,
+          "hauteur": 12
+        },
+        "point": [
+          1117.83,
+          1069.99
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "atc",
+        "title": "Îles Ashmore-et-Cartier",
+        "file": "pieces/iles_ashmore_et_cartier__atc.png",
+        "box": {
+          "x": 276,
+          "y": 733,
+          "largeur": 11,
+          "hauteur": 11
+        },
+        "point": [
+          281.29,
+          738.31
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "cok",
+        "title": "Îles Cook",
+        "file": "pieces/iles_cook__cok.png",
+        "box": {
+          "x": 1720,
+          "y": 907,
+          "largeur": 13,
+          "hauteur": 13
+        },
+        "point": [
+          1726.1,
+          913.56
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie est de la carte."
+      },
+      {
+        "id": "mhl",
+        "title": "Îles Marshall",
+        "file": "pieces/iles_marshall__mhl.png",
+        "box": {
+          "x": 1091,
+          "y": 263,
+          "largeur": 104,
+          "hauteur": 118
+        },
+        "point": [
+          1187.64,
+          350.91
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord de la carte."
+      },
+      {
+        "id": "slb",
+        "title": "Îles Salomon",
+        "file": "pieces/iles_salomon__slb.png",
+        "box": {
+          "x": 881,
+          "y": 617,
+          "largeur": 223,
+          "hauteur": 115
+        },
+        "point": [
+          970.8,
+          682.17
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "mnp",
+        "title": "îles Mariannes du Nord",
+        "file": "pieces/iles_mariannes_du_nord__mnp.png",
+        "box": {
+          "x": 682,
+          "y": 110,
+          "largeur": 24,
+          "hauteur": 105
+        },
+        "point": [
+          688.94,
+          208.72
+        ],
+        "type": "Pays ou territoire · Océanie",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-ouest de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 61,
+      "y": 96,
+      "width": 2279,
+      "height": 1508
+    }
+  },
+  {
+    "id": "08_antarctique",
+    "title": "Antarctique",
+    "heading": "Antarctique",
+    "kind": "Découverte",
+    "unit": "pièces",
+    "description": "Explore le continent antarctique et les îles australes.",
+    "pieces": [
+      {
+        "id": "ata",
+        "title": "Antarctique",
+        "file": "pieces/antarctique__ata.png",
+        "box": {
+          "x": 223,
+          "y": 293,
+          "largeur": 1484,
+          "hauteur": 1332
+        },
+        "point": [
+          1056.86,
+          930.99
+        ],
+        "type": "Continent ou territoire austral",
+        "description": "Autour du pôle Sud, tout en bas du planisphère."
+      },
+      {
+        "id": "atf",
+        "title": "Terres australes et antarctiques françaises",
+        "file": "pieces/terres_australes_et_antarctiques_francaises__atf.png",
+        "box": {
+          "x": 2033,
+          "y": 75,
+          "largeur": 144,
+          "hauteur": 438
+        },
+        "point": [
+          2150.82,
+          487.45
+        ],
+        "type": "Continent ou territoire austral",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "hmd",
+        "title": "îles Heard-et-MacDonald",
+        "file": "pieces/iles_heard_et_macdonald__hmd.png",
+        "box": {
+          "x": 2052,
+          "y": 595,
+          "largeur": 17,
+          "hauteur": 24
+        },
+        "point": [
+          2060.63,
+          607.11
+        ],
+        "type": "Continent ou territoire austral",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 209,
+      "y": 61,
+      "width": 1982,
+      "height": 1578
+    }
+  },
+  {
+    "id": "09_cameroun",
+    "title": "Cameroun",
+    "heading": "Connaissance du Cameroun",
+    "kind": "Les régions",
+    "unit": "régions",
+    "description": "Replace les dix régions sur la carte du Cameroun.",
+    "pieces": [
+      {
+        "id": "adamaoua",
+        "title": "Adamaoua",
+        "file": "pieces/adamaoua__adamaoua.png",
+        "box": {
+          "x": 1040,
+          "y": 735,
+          "largeur": 556,
+          "hauteur": 307
+        },
+        "point": [
+          1314.28,
+          888.46
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "centre",
+        "title": "Centre",
+        "file": "pieces/centre__centre.png",
+        "box": {
+          "x": 911,
+          "y": 993,
+          "largeur": 414,
+          "hauteur": 433
+        },
+        "point": [
+          1134.71,
+          1208.88
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "est",
+        "title": "Est",
+        "file": "pieces/est__est.png",
+        "box": {
+          "x": 1217,
+          "y": 1014,
+          "largeur": 506,
+          "hauteur": 611
+        },
+        "point": [
+          1402.18,
+          1319.35
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "extreme_nord",
+        "title": "Extrême-Nord",
+        "file": "pieces/extreme_nord__extreme_nord.png",
+        "box": {
+          "x": 1336,
+          "y": 75,
+          "largeur": 319,
+          "hauteur": 436
+        },
+        "point": [
+          1538.37,
+          291.98
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie nord-est de la carte."
+      },
+      {
+        "id": "littoral",
+        "title": "Littoral",
+        "file": "pieces/littoral__littoral.png",
+        "box": {
+          "x": 789,
+          "y": 1116,
+          "largeur": 252,
+          "hauteur": 291
+        },
+        "point": [
+          917.16,
+          1262.68
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      },
+      {
+        "id": "nord",
+        "title": "Nord",
+        "file": "pieces/nord__nord.png",
+        "box": {
+          "x": 1179,
+          "y": 460,
+          "largeur": 464,
+          "hauteur": 444
+        },
+        "point": [
+          1409.75,
+          681.91
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie centrale de la carte."
+      },
+      {
+        "id": "nord_ouest",
+        "title": "Nord-Ouest",
+        "file": "pieces/nord_ouest__nord_ouest.png",
+        "box": {
+          "x": 823,
+          "y": 872,
+          "largeur": 230,
+          "hauteur": 204
+        },
+        "point": [
+          948.43,
+          974.26
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie ouest de la carte."
+      },
+      {
+        "id": "ouest",
+        "title": "Ouest",
+        "file": "pieces/ouest__ouest.png",
+        "box": {
+          "x": 860,
+          "y": 989,
+          "largeur": 206,
+          "hauteur": 200
+        },
+        "point": [
+          962.87,
+          1089.83
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "sud",
+        "title": "Sud",
+        "file": "pieces/sud__sud.png",
+        "box": {
+          "x": 855,
+          "y": 1343,
+          "largeur": 530,
+          "hauteur": 214
+        },
+        "point": [
+          1065.88,
+          1449.74
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud de la carte."
+      },
+      {
+        "id": "sud_ouest",
+        "title": "Sud-Ouest",
+        "file": "pieces/sud_ouest__sud_ouest.png",
+        "box": {
+          "x": 677,
+          "y": 957,
+          "largeur": 228,
+          "hauteur": 364
+        },
+        "point": [
+          788.99,
+          1139.81
+        ],
+        "type": "Région du Cameroun",
+        "description": "Sur cet atlas, cette pièce se situe dans la partie sud-ouest de la carte."
+      }
+    ],
+    "displayBounds": {
+      "x": 663,
+      "y": 61,
+      "width": 1074,
+      "height": 1579
+    }
+  }
+]

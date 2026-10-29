@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Découvre la géographie avec Map Monde. Replace les continents, les pays et les régions sur leur carte." />
+    <title>Bienvenue · Map Monde</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Inter+Tight:wght@500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" />
+    <script>
+      try {
+        const theme = localStorage.getItem('dash26-theme');
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme',
+          theme === 'dark' || theme === 'light' ? theme : systemDark ? 'dark' : 'light');
+      } catch {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23132c4c%22%2F%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2210%22%2F%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%2216%22%20rx%3D%224%22%20ry%3D%2210%22%2F%3E%3Cpath%20d%3D%22M6%2016h20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <div class="auth-shell">
+      <aside class="auth-aside" aria-label="Présentation de Map Monde">
+        <div class="auth-brand">
+          <div class="logo" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><ellipse cx="12" cy="12" rx="4" ry="9" /><path d="M3 12h18M5 6.5a17 17 0 0 0 14 0M5 17.5a17 17 0 0 1 14 0" /></svg>
+          </div>
+          <div class="name">Map Monde</div>
+        </div>
+        <div class="auth-aside-body">
+          <img class="world-outline" src="%BASE_URL%01_monde/carte_solution.png" width="2400" height="1700" alt="" />
+          <h1>Le monde,<br />pièce par pièce.</h1>
+          <p>Replace les continents, les pays et les régions sur leur carte.</p>
+        </div>
+        <div class="auth-aside-footer">Monde · Continents · Cameroun</div>
+      </aside>
+
+      <main class="auth-main">
+        <div class="auth-brand mobile-brand" aria-label="Map Monde">
+          <div class="logo" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><ellipse cx="12" cy="12" rx="4" ry="9" /><path d="M3 12h18M5 6.5a17 17 0 0 0 14 0M5 17.5a17 17 0 0 1 14 0" /></svg>
+          </div>
+          <div class="name">Map Monde</div>
+        </div>
+        <div class="auth-card">
+          <h2>Bienvenue</h2>
+          <p class="sub">Ton nom et tes préférences pour commencer la partie.</p>
+
+          <form id="player-form" class="auth-form" action="jeu.html" method="get">
+            <div class="field">
+              <label class="field-label" for="player-name">Nom et prénom</label>
+              <input id="player-name" name="playerName" class="input" type="text" placeholder="Ex. Alex Martin" autocomplete="name" maxlength="80" required />
+            </div>
+            <div class="field">
+              <label class="field-label" for="player-language">Langue préférée</label>
+              <select id="player-language" name="language" class="select" required>
+                <option value="fr" lang="fr">Français</option>
+                <option value="en" lang="en">English</option>
+              </select>
+            </div>
+            <div class="field">
+              <label class="field-label" for="player-country">Pays <span class="optional">Facultatif</span></label>
+              <select id="player-country" name="country" class="select" autocomplete="country">
+                <option value="">Choisir un pays</option>
+              </select>
+            </div>
+            <p id="form-error" class="form-error" role="alert" hidden></p>
+            <button class="btn btn--primary auth-submit" type="submit">Commencer</button>
+          </form>
+          <p class="profile-note">Aucun compte à créer.</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jouer · Map Monde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Inter+Tight:wght@500;600;700&amp;display=swap" rel="stylesheet" />
+  <script>
+    try { const t = localStorage.getItem('dash26-theme'); document.documentElement.dataset.theme = ['light','dark'].includes(t) ? t : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    catch { document.documentElement.dataset.theme = 'light'; }
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23132c4c%22%2F%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2210%22%2F%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%2216%22%20rx%3D%224%22%20ry%3D%2210%22%2F%3E%3Cpath%20d%3D%22M6%2016h20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" />
+  <script type="module" src="/src/game.ts"></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="d-sidebar" id="game-sidebar" aria-label="Parcours">
+      <a class="brand" href="index.html" aria-label="Map Monde, accueil">
+        <div class="brand-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg></div>
+        <div class="brand-text"><div class="brand-name">Map Monde</div><div class="brand-tag">Puzzle géographique</div></div>
+      </a>
+      <nav class="nav-section" aria-label="Choisir un parcours"><div class="nav-label">Les parcours</div><div id="stage-list"></div></nav>
+      <div class="sidebar-footer"><a class="records-side-link records-button" data-records-link href="records.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>Mes records</a><a href="%BASE_URL%CREDITS_CARTOGRAPHIQUES.png" target="_blank" rel="noopener">Crédits des cartes</a></div>
+    </aside>
+    <button id="drawer-backdrop" aria-label="Fermer les parcours" hidden></button>
+    <div class="main">
+      <header class="d-topbar game-header">
+        <div class="game-header-top">
+          <div class="header-context">
+            <button class="hamburger" id="menu-button" aria-label="Ouvrir les parcours" aria-expanded="false" aria-controls="game-sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+            <div class="header-intro"><span class="eyebrow" id="stage-kind">Les continents</span><h1 id="stage-title">Carte du monde</h1><p id="stage-description">Replace chaque continent sur la carte du monde.</p><span id="current-stage" hidden>Monde</span></div>
+          </div>
+          <section class="kpi-grid" aria-label="Statistiques de la partie">
+          <article class="kpi-card c-primary"><div class="kpi-label">Score</div><div class="kpi-value" id="score">0</div><div class="kpi-compare">100 par pièce · Aide −20 · Erreur −10</div></article>
+          <article class="kpi-card c-success"><div class="kpi-label">Progression</div><div class="kpi-value" id="progress-value">0 <sup>/ 7</sup></div><div class="progress thin"><div class="progress-fill success" id="progress-bar" style="width:0%"></div></div></article>
+          <article class="kpi-card c-purple"><div class="kpi-label">Temps restant</div><div class="kpi-value" id="timer">01:45</div><div class="kpi-compare" id="timer-note">15 s par pièce · départ au premier geste</div></article>
+          <article class="kpi-card c-warning"><div class="kpi-label">Record personnel</div><div class="kpi-value" id="best-score">—</div><div class="kpi-compare" id="best-time">Aucune partie terminée</div></article>
+        </section>
+          <div class="topbar-actions header-controls">
+            <div class="player"><span class="player-avatar" id="player-avatar">J</span><span id="player-name">Joueur</span></div>
+            <button class="btn btn--ghost" id="restart-button">Recommencer</button>
+            <button class="btn btn--primary" id="help-button">Aide</button>
+            <button class="btn btn--ghost" id="quit-button">Quitter</button>
+          </div>
+        </div>
+        
+      </header>
+      <main class="content">
+        <div class="game-grid">
+          <section class="card piece-card" aria-labelledby="piece-heading">
+            <div class="card-head"><div class="card-title-wrap"><span class="eyebrow">À toi de jouer</span><h2 class="card-title" id="piece-heading">La pièce à placer</h2></div><span class="badge primary" id="piece-counter">1 / 7</span></div>
+            <button class="piece-preview" id="piece-button" aria-describedby="piece-instructions"><img id="piece-image" alt="Afrique, pièce à placer" draggable="false" /></button>
+            <h3 id="piece-name">Afrique</h3><span class="piece-type" id="piece-type">Continent</span><p id="piece-description"></p>
+            <p class="piece-instructions" id="piece-instructions">Glisse cette pièce sur la carte. Tu peux aussi la sélectionner, puis cliquer sur son emplacement.</p>
+
+          </section>
+          <section class="card map-card" aria-labelledby="map-heading">
+            <div class="card-head"><div class="card-title-wrap"><span class="eyebrow">Le puzzle</span><h2 class="card-title" id="map-heading">Carte à compléter</h2></div><div class="map-tools"><span>Aides <strong id="help-count">0 / 5</strong></span><span>Erreurs <strong id="error-count">0</strong></span><span class="map-progress" id="map-percent">0 %</span><span id="stage-count">7 continents</span><p id="game-status" role="status" aria-live="polite">Sélectionne ou déplace la première pièce pour commencer.</p></div></div>
+            <div class="map-viewport"><div class="atlas-surface" id="atlas-surface" role="group" aria-label="Carte à compléter"><div class="atlas-frame" id="atlas-frame"><img id="atlas-image" class="atlas-image" alt="Carte du monde vide" draggable="false" /><div id="placed-pieces"></div><span class="hint-ring" id="hint-ring" hidden></span></div></div></div>
+
+          </section>
+        </div>
+      </main>
+      <footer class="d-footer"><span>Map Monde · Apprendre en jouant</span><span>Interface adaptée du template <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a></span></footer>
+    </div>
+  </div>
+  <dialog id="result-dialog" aria-labelledby="result-title"><div class="result-content"><span class="eyebrow" id="result-kind">Parcours terminé</span><h2 id="result-title">Carte complétée</h2><p id="result-summary"></p><p id="result-record"></p><div class="result-actions"><a class="btn btn--ghost" data-records-link href="records.html">Mes records</a><button class="btn btn--ghost" id="close-result">Changer de parcours</button><button class="btn btn--primary" id="replay-result">Rejouer</button></div></div></dialog>
+</body>
+</html>

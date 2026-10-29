@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Records · Map Monde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Inter+Tight:wght@500;600;700&amp;display=swap" rel="stylesheet" />
+  <script>
+    try { const t = localStorage.getItem('dash26-theme'); document.documentElement.dataset.theme = ['light','dark'].includes(t) ? t : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    catch { document.documentElement.dataset.theme = 'light'; }
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23132c4c%22%2F%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2210%22%2F%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%2216%22%20rx%3D%224%22%20ry%3D%2210%22%2F%3E%3Cpath%20d%3D%22M6%2016h20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" />
+  <script type="module" src="/src/records.ts"></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="d-sidebar" id="game-sidebar" aria-label="Parcours">
+      <a class="brand" href="index.html" aria-label="Map Monde, accueil">
+        <div class="brand-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg></div>
+        <div class="brand-text"><div class="brand-name">Map Monde</div><div class="brand-tag">Puzzle géographique</div></div>
+      </a>
+      <nav class="nav-section" aria-label="Navigation"><a class="nav-link is-active records-active" href="records.html" aria-current="page"><span>Mes records</span></a><div class="nav-label">Les parcours</div><div id="records-stage-list"></div></nav>
+      <div class="sidebar-footer"><a class="records-side-link records-button return-game-button" id="sidebar-play" href="jeu.html">Retour au jeu</a><a href="%BASE_URL%CREDITS_CARTOGRAPHIQUES.png" target="_blank" rel="noopener">Crédits des cartes</a></div>
+    </aside>
+    <button id="drawer-backdrop" aria-label="Fermer les parcours" hidden></button>
+    <div class="main">
+      <header class="d-topbar records-header">
+        <div class="crumbs"><button class="hamburger" id="menu-button" aria-label="Ouvrir les parcours" aria-expanded="false" aria-controls="game-sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><span>Map Monde</span><span aria-hidden="true">/</span><span class="current">Records</span></div>
+        <div class="topbar-actions"><div class="player"><span class="player-avatar" id="player-avatar">J</span><span id="player-name">Joueur</span></div><a class="btn btn--primary return-game-button" id="back-to-game" href="jeu.html">Retour au jeu</a></div>
+      </header>
+      <main class="records-content">
+        <div class="records-intro"><div><h1>Mes records</h1><p>Les meilleurs résultats par carte, enregistrés sur ce navigateur.</p></div><span class="badge primary" id="completed-count">0 / 9 cartes</span></div>
+        <section class="card records-panel" aria-label="Records personnels par carte">
+          <div class="records-toolbar"><p id="records-note" role="status">Aucun record pour le moment.</p><label class="record-filter" for="record-filter">Afficher<select class="select" id="record-filter"><option value="all">Toutes les cartes</option><option value="completed">Cartes terminées</option><option value="unplayed">Cartes à terminer</option></select></label></div>
+          <div class="records-table-wrap" id="records-table-wrap"><table class="records-table"><caption>Meilleurs scores et temps par carte</caption><thead><tr><th scope="col">Carte</th><th scope="col">Score</th><th scope="col">Temps</th><th scope="col">Aides</th><th scope="col">Erreurs</th><th scope="col" aria-label="Action"></th></tr></thead><tbody id="record-rows"></tbody></table></div>
+          <div class="records-pagination"><span id="page-info" aria-live="polite"></span><div class="pagination-actions"><button class="btn btn--ghost" id="previous-page" aria-label="Page précédente">Précédent</button><button class="btn btn--ghost" id="next-page" aria-label="Page suivante">Suivant</button></div></div>
+        </section>
+      </main>
+      <footer class="d-footer"><span>Map Monde · Apprendre en jouant</span><span>Interface adaptée du template <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a></span></footer>
+    </div>
+  </div>
+</body>
+</html>
