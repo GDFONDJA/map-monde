@@ -74,6 +74,19 @@ function $<K extends keyof GameElements>(id: K): GameElements[K] {
   let started: number | null = null;
   let drag: PieceDrag | null = null;
   const asset = (file: string) => `${import.meta.env.BASE_URL}${stage.id}/${file}`;
+  
+  const pieceTooltip = document.createElement('div');
+  pieceTooltip.className = 'piece-tooltip';
+  pieceTooltip.hidden = true;
+  document.body.append(pieceTooltip);
+
+  function hidePieceTooltip() {
+    pieceTooltip.hidden = true;
+  }
+
+  document.addEventListener('pointerdown', hidePieceTooltip);
+  window.addEventListener('blur', hidePieceTooltip);
+
   const piece = () => stage.pieces[index];
   const timeText = (seconds: number) => `${String(Math.floor(seconds / 60)).padStart(2,'0')}:${String(seconds % 60).padStart(2,'0')}`;
   const seconds = () => finished ? elapsed : started === null ? 0 : Math.floor((performance.now() - started) / 1000);
@@ -194,7 +207,34 @@ function $<K extends keyof GameElements>(id: K): GameElements[K] {
     if (x < box.left || x > box.right || y < box.top || y > box.bottom || Math.hypot(x-targetX,y-targetY) > tolerance) {
       errors++; updateStats(); status('Pas tout à fait. Rapproche la pièce de son emplacement, ou utilise Aide.'); return;
     }
-    const image = document.createElement('img'); image.className = 'placed-piece'; image.src = asset(p.file); image.alt = p.title;
+    const image = document.createElement('img');
+    image.className = 'placed-piece';
+    image.src = asset(p.file);
+    image.alt = p.title;
+    
+    function showPieceTooltip(event: PointerEvent) {
+    if (event.pointerType !== 'mouse') return;
+
+    pieceTooltip.textContent = p.title;
+    pieceTooltip.hidden = false;
+
+    const width = pieceTooltip.offsetWidth;
+    const height = pieceTooltip.offsetHeight;
+
+    pieceTooltip.style.left = `${
+      Math.max(8, Math.min(event.clientX + 12, window.innerWidth - width - 8))
+    }px`;
+
+    pieceTooltip.style.top = `${
+      Math.max(8, Math.min(event.clientY + 16, window.innerHeight - height - 8))
+    }px`;
+  }
+
+  image.addEventListener('pointerenter', showPieceTooltip);
+  image.addEventListener('pointermove', showPieceTooltip);
+  image.addEventListener('pointerleave', hidePieceTooltip);
+
+
     image.style.left = `${p.box.x/2400*100}%`; image.style.top = `${p.box.y/1700*100}%`; image.style.width = `${p.box.largeur/2400*100}%`; image.style.height = `${p.box.hauteur/1700*100}%`;
     $('placed-pieces').append(image); index++; updateStats(); showPiece();
     if (index === stage.pieces.length) finish(); else status(`${p.title} : bien placé. À la pièce suivante.`);

@@ -43,7 +43,14 @@ button, select { font-family: inherit; }
 .atlas-surface { position:relative; width:100%; aspect-ratio:2400/1700; background:radial-gradient(#dce5ee .65px,transparent .65px) 0 0/16px 16px; }
 .atlas-image { display:block; width:100%; height:100%; object-fit:fill; pointer-events:none; user-select:none; opacity:.6; }
 #placed-pieces { position:absolute; inset:0; pointer-events:none; }
-.placed-piece { position:absolute; max-width:none; pointer-events:none; }
+
+.placed-piece {
+  position: absolute;
+  max-width: none;
+  pointer-events: auto;
+  cursor: help;
+}
+
 .map-progress { color:var(--primary); font-weight:700; font-size:13px; white-space:nowrap; }
 .map-bottom { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:16px; color:var(--t-muted); font-size:11px; }
 .map-bottom p { margin:0; }
@@ -272,3 +279,28 @@ body { overflow:hidden; }
 .sidebar-footer .records-button:hover { background:#a82d3b; border-color:#b93745; }
 .sidebar-footer .records-button:focus-visible { outline:2px solid #fff; outline-offset:3px; }
 @media (max-height:480px) { .sidebar-footer .records-button { min-height:22px; padding:2px 6px; margin-bottom:2px; font-size:10px; line-height:1.3; } }
+
+
+.placed-piece {
+  pointer-events: auto;
+  cursor: default;
+}
+
+.piece-tooltip {
+  position: fixed;
+  z-index: 1000;
+  max-width: min(240px, calc(100vw - 16px));
+  padding: 7px 11px;
+  border-radius: 7px;
+  background: #132c4c;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  pointer-events: none;
+  box-shadow: 0 3px 12px #0003;
+}
+
+.piece-tooltip[hidden] {
+  display: none;
+}
