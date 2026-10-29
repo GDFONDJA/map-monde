@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
-  base: './',
+  base: '/map-monde/',
   // Une seule bibliothèque de cartes, conservée dans le dossier images du projet.
   publicDir: resolve(root, '../images'),
   server: { host: '127.0.0.1', port: 5173, strictPort: true },
