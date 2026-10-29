@@ -87,6 +87,94 @@ function $<K extends keyof GameElements>(id: K): GameElements[K] {
   document.addEventListener('pointerdown', hidePieceTooltip);
   window.addEventListener('blur', hidePieceTooltip);
 
+  const piecePixels = new WeakMap<HTMLImageElement, ImageData>();
+
+  function visiblePieceAt(x: number, y: number) {
+    const images = Array.from(
+      $('placed-pieces').querySelectorAll<HTMLImageElement>('img')
+    ).reverse();
+
+    for (const image of images) {
+      const box = image.getBoundingClientRect();
+
+      if (
+        !image.naturalWidth ||
+        !box.width ||
+        !box.height ||
+        x < box.left || x >= box.right ||
+        y < box.top || y >= box.bottom
+      ) continue;
+
+      let pixels = piecePixels.get(image);
+
+      if (!pixels) {
+        const canvas = document.createElement('canvas');
+        canvas.width = image.naturalWidth;
+        canvas.height = image.naturalHeight;
+
+        const context = canvas.getContext('2d');
+        if (!context) continue;
+
+        context.drawImage(image, 0, 0);
+        pixels = context.getImageData(
+          0, 0, canvas.width, canvas.height
+        );
+        piecePixels.set(image, pixels);
+      }
+
+      const pixelX = Math.floor(
+        (x - box.left) / box.width * pixels.width
+      );
+      const pixelY = Math.floor(
+        (y - box.top) / box.height * pixels.height
+      );
+
+      const alpha = pixels.data[
+        (pixelY * pixels.width + pixelX) * 4 + 3
+      ];
+
+      if (alpha !== undefined && alpha > 30) return image;
+    }
+
+    return null;
+  }
+
+  function showPieceName(image: HTMLImageElement, x: number, y: number) {
+    pieceTooltip.textContent = image.alt;
+    pieceTooltip.hidden = false;
+
+    pieceTooltip.style.left = `${
+      Math.max(8, Math.min(
+        x + 12,
+        window.innerWidth - pieceTooltip.offsetWidth - 8
+      ))
+    }px`;
+
+    pieceTooltip.style.top = `${
+      Math.max(8, Math.min(
+        y + 16,
+        window.innerHeight - pieceTooltip.offsetHeight - 8
+      ))
+    }px`;
+  }
+
+  $('atlas-surface').addEventListener('pointermove', event => {
+    if (event.pointerType !== 'mouse') return;
+
+    const image = visiblePieceAt(event.clientX, event.clientY);
+
+    if (image && !drag) {
+      showPieceName(image, event.clientX, event.clientY);
+    } else {
+      hidePieceTooltip();
+    }
+  });
+
+  $('atlas-surface').addEventListener(
+    'pointerleave',
+    hidePieceTooltip
+  );
+
   const piece = () => stage.pieces[index];
   const timeText = (seconds: number) => `${String(Math.floor(seconds / 60)).padStart(2,'0')}:${String(seconds % 60).padStart(2,'0')}`;
   const seconds = () => finished ? elapsed : started === null ? 0 : Math.floor((performance.now() - started) / 1000);
@@ -212,29 +300,6 @@ function $<K extends keyof GameElements>(id: K): GameElements[K] {
     image.src = asset(p.file);
     image.alt = p.title;
     
-    function showPieceTooltip(event: PointerEvent) {
-    if (event.pointerType !== 'mouse') return;
-
-    pieceTooltip.textContent = p.title;
-    pieceTooltip.hidden = false;
-
-    const width = pieceTooltip.offsetWidth;
-    const height = pieceTooltip.offsetHeight;
-
-    pieceTooltip.style.left = `${
-      Math.max(8, Math.min(event.clientX + 12, window.innerWidth - width - 8))
-    }px`;
-
-    pieceTooltip.style.top = `${
-      Math.max(8, Math.min(event.clientY + 16, window.innerHeight - height - 8))
-    }px`;
-  }
-
-  image.addEventListener('pointerenter', showPieceTooltip);
-  image.addEventListener('pointermove', showPieceTooltip);
-  image.addEventListener('pointerleave', hidePieceTooltip);
-
-
     image.style.left = `${p.box.x/2400*100}%`; image.style.top = `${p.box.y/1700*100}%`; image.style.width = `${p.box.largeur/2400*100}%`; image.style.height = `${p.box.hauteur/1700*100}%`;
     $('placed-pieces').append(image); index++; updateStats(); showPiece();
     if (index === stage.pieces.length) finish(); else status(`${p.title} : bien placé. À la pièce suivante.`);
@@ -252,7 +317,29 @@ function $<K extends keyof GameElements>(id: K): GameElements[K] {
   $('piece-button').addEventListener('pointerup', e => { if (!drag || drag.pointer !== e.pointerId) return; if (!canAct()) { stopDrag(); return; } const moved = drag.moved; stopDrag(); if (moved) tryPlace(e.clientX,e.clientY); else status('Pièce sélectionnée. Clique sur son emplacement dans la carte.'); });
   $('piece-button').addEventListener('pointercancel', stopDrag);
   $('piece-button').addEventListener('click', e => { if (e.detail === 0 && piece() && start()) { selected=true; $('piece-button').classList.add('selected'); status('Pièce sélectionnée. Clique sur son emplacement dans la carte.'); } });
-  $('atlas-surface').addEventListener('click', e => { if (selected) tryPlace(e.clientX,e.clientY); });
+
+  
+
+
+
+
+  $('atlas-surface').addEventListener('click', event => {
+    const image = visiblePieceAt(event.clientX, event.clientY);
+
+    if (image) {
+      showPieceName(image, event.clientX, event.clientY);
+      return;
+    }
+
+    hidePieceTooltip();
+
+    if (selected) {
+      tryPlace(event.clientX, event.clientY);
+    }
+  });
+
+
+
   $('help-button').addEventListener('click', () => {
     if (!piece() || hinted || helps >= MAX_HELPS || !start()) return; hinted = true; helps++;
     $('hint-ring').style.left = `${piece().point[0]/2400*100}%`; $('hint-ring').style.top = `${piece().point[1]/1700*100}%`; $('hint-ring').hidden = false;
